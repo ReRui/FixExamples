@@ -1,2 +1,0 @@
-db2.oracle,sqlserver表空间相同与差异
-一张A4纸
