@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9f4e1b6d-5c87-4e1a-a05a-150c9330506c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/hashcodetest/HashCodeTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/hashcodetest/IntRange.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/hashcodetest/NumberUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/hashcodetest/Range.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Patch/hashcodetest/IntRange.class" afterPath="$PROJECT_DIR$/out/production/Patch/hashcodetest/IntRange.class" />
-      <change beforePath="$PROJECT_DIR$/修复所使用的pattern.md" afterPath="$PROJECT_DIR$/修复所使用的pattern.md" />
-      <change beforePath="$PROJECT_DIR$/验证修复的结果.md" afterPath="$PROJECT_DIR$/验证修复的结果.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -281,12 +274,12 @@
       <option name="presentableId" value="Default" />
       <updated>1521874703335</updated>
       <workItem from="1521874705754" duration="480000" />
-      <workItem from="1521875660295" duration="6106000" />
+      <workItem from="1521875660295" duration="6772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6586000" />
+    <option name="totallyTimeSpent" value="7252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -302,7 +295,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31813306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
