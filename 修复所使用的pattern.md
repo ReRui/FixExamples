@@ -26,11 +26,10 @@ ReadWriteNode[845,alarmclock.MyLinkedList@162,size,READ,Thread-8,alarmclock/Alar
 **HashCodeTest**
 
 定位到的pattern
-ReadWriteNode[222,hashcodetest.IntRange@166,hashCode,WRITE,Thread-5,hashcodetest/IntRange.java:356]
-ReadWriteNode[272,hashcodetest.IntRange@166,hashCode,READ,Thread-2,hashcodetest/IntRange.java:357]
-ReadWriteNode[305,hashcodetest.IntRange@166,hashCode,WRITE,Thread-5,hashcodetest/IntRange.java:357]
+ReadWriteNode[308,hashcodetest.IntRange@166,hashCode,READ,Thread-10,hashcodetest/IntRange.java:355]
+ReadWriteNode[346,hashcodetest.IntRange@166,hashCode,WRITE,Thread-7,hashcodetest/IntRange.java:357]
 
-结果：在IntRange.java的356-358行加了this锁
+结果：在IntRange.java的355-360行加了this锁
 
 **reorder** 
 
