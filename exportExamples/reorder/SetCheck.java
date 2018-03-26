@@ -8,14 +8,19 @@ package reorder;
  * been changed
  */
 public class SetCheck {
-    private int a=0;
-    private int b=0;
+    private int a = 0;
+    private int b = 0;
+
     void set() {
-synchronized (this){ 	a = 1;
-}	b = -1;
-    }
-	
-    boolean check() {
-synchronized (this){ 	return ((a==0 && b==0)  || (a==1 && b==-1));
+        synchronized (this) {
+            a = 1;
+        }
+synchronized (this){         b = -1;
 }    }
+
+    boolean check() {
+        synchronized (this) {
+synchronized (this){             return ((a == 0 && b == 0) || (a == 1 && b == -1));
+}        }
+    }
 }
