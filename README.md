@@ -3,3 +3,5 @@
 examples是原来的程序
 
 exportExamples是修复后的程序
+
+verifyFiles是修复后的程序生成的class文件
