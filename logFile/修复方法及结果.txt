@@ -1,0 +1,6 @@
+修复二
+锁的名字ac
+锁的名字ac
+对ReadWriteNode[1177,account.Account@1b7,amount,READ,Thread-4,account/Account.java:28]加锁起止位置28->28
+对ReadWriteNode[1182,account.Account@1b7,amount,WRITE,Thread-5,account/Account.java:16]加锁起止位置0->0
+修复失败
