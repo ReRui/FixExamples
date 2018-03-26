@@ -4,4 +4,6 @@ examples是原来的程序
 
 exportExamples是修复后的程序
 
-verifyFiles是修复后的程序生成的class文件
+generateClass是修复后的程序生成的class文件
+
+logFile是将运行时的一些信息记录下来
