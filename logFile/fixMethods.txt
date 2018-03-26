@@ -1,5 +1,6 @@
 修复二
+锁的名字this
+锁的名字this
+对ReadWriteNode[1040,account.Account@1bf,amount,READ,Thread-6,account/Account.java:16]加锁起止位置16->16
 锁的名字ac
-锁的名字ac
-对ReadWriteNode[1016,account.Account@1b7,amount,READ,Thread-4,account/Account.java:28]加锁起止位置28->28
-对ReadWriteNode[1070,account.Account@1b7,amount,WRITE,Thread-5,account/Account.java:16]加锁起止位置0->0
+对ReadWriteNode[1060,account.Account@1bf,amount,WRITE,Thread-4,account/Account.java:28]加锁起止位置28->28
