@@ -15,12 +15,14 @@ public class SetCheck {
         synchronized (this) {
             a = 1;
         }
-synchronized (this){         b = -1;
-}    }
+        synchronized (this) {
+            b = -1;
+        }
+    }
 
     boolean check() {
         synchronized (this) {
-synchronized (this){             return ((a == 0 && b == 0) || (a == 1 && b == -1));
-}        }
+            return ((a == 0 && b == 0) || (a == 1 && b == -1));
+        }
     }
 }
