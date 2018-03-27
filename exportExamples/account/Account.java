@@ -8,7 +8,7 @@ public class Account {
 
     //constructor
   public Account(String nm,double amnt ) {
-       amount=amnt;
+        amount=amnt;
         name=nm;
   }
   //functions
