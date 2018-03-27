@@ -1,8 +1,0 @@
-Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[56,reorder.SetCheck@167,b,WRITE,Thread-2,reorder/SetCheck.java:18]
-	ReadWriteNode[70,reorder.SetCheck@167,b,READ,Thread-4,reorder/SetCheck.java:23]
-}
-success count: 41
-fail count: 1

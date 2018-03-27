@@ -1,0 +1,8 @@
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[33,account.Account@1a7,amount,WRITE,main,account/Account.java:11]
+	ReadWriteNode[1270,account.Account@1a7,amount,WRITE,Thread-2,account/Account.java:32]
+}
+success count: 120
+fail count: 5
