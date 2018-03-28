@@ -15,10 +15,8 @@ public class SetCheck {
         synchronized (this) {
             a = 1;
         }
-        synchronized (this) {
-            b = -1;
-        }
-    }
+synchronized (this){         b = -1;
+}    }
 
     boolean check() {
         synchronized (this) {
