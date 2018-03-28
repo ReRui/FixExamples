@@ -1,5 +1,0 @@
-修复二
-对ReadWriteNode[1302,account.Account@1b7,amount,WRITE,Thread-5,account/Account.java:16]加锁起止位置24->24
-锁的名字ac
-对ReadWriteNode[1445,account.Account@1b7,amount,READ,Thread-4,account/Account.java:28]加锁起止位置28->28
-结果: 修复成功
