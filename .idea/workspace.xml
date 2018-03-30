@@ -3,20 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="9f4e1b6d-5c87-4e1a-a05a-150c9330506c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/test/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Patch.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exportExamples/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/account/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/store/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/store/StoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/wrongLock/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/wrongLock/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/wrongLock/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/wrongLock/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/wrongLock/TClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/wrongLock/TClass1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/wrongLock/TClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/wrongLock/TClass2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/wrongLock/WrongLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/wrongLock/WrongLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/atmoerror/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/atmoerror/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/atmoerror/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generateClass/account/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/generateClass/account/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generateClass/atmoerror/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/generateClass/atmoerror/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/account/verify pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/account/verify pattern.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logFile/account/修复得到的pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/account/修复得到的pattern.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logFile/account/修复得到的sequence.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/account/修复得到的sequence.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Patch/test/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Patch/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/account/修复方法及结果.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/account/修复方法及结果.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/atmoerror/verify pattern.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/atmoerror/修复得到的pattern.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/atmoerror/修复得到的sequence.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/atmoerror/修复方法及结果.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,10 +29,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exportExamples/account/Account.java">
+      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/bubblesort/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-285" />
+            <state relative-caret-position="228">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="23" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -69,9 +72,12 @@
         <option value="$PROJECT_DIR$/exportExamples/producerConsumer/ProducerConsumer.java" />
         <option value="$PROJECT_DIR$/exportExamples/reorder/SetCheck.java" />
         <option value="$PROJECT_DIR$/examples/stringbuffer/StringBuffer.java" />
-        <option value="$PROJECT_DIR$/examples/airlinetickets/Airlinetickets.java" />
-        <option value="$PROJECT_DIR$/examples/allocationvector/AllocationVector.java" />
         <option value="$PROJECT_DIR$/examples/atmoerror/Main.java" />
+        <option value="$PROJECT_DIR$/logFile/account/修复方法及结果.txt" />
+        <option value="$PROJECT_DIR$/examples/airlinetickets/Airlinetickets.java" />
+        <option value="$PROJECT_DIR$/exportExamples/atmoerror/BankAccount.java" />
+        <option value="$PROJECT_DIR$/examples/allocationvector/AllocationVector.java" />
+        <option value="$PROJECT_DIR$/examples/bubblesort/Reporter.java" />
       </list>
     </option>
   </component>
@@ -81,7 +87,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -112,13 +118,7 @@
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="alarmclock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patch" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="atmoerror" type="462c0819:PsiDirectoryNode" />
+              <item name="bubblesort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
@@ -135,6 +135,12 @@
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
               <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="airlinetickets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patch" type="462c0819:PsiDirectoryNode" />
+              <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
               <item name="atmoerror" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -146,7 +152,13 @@
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
               <item name="logFile" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="airlinetickets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patch" type="462c0819:PsiDirectoryNode" />
+              <item name="logFile" type="462c0819:PsiDirectoryNode" />
+              <item name="atmoerror" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,7 +171,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Fix" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/junit-4.10.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -188,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.BubbleSort">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -199,6 +211,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="airlinetickets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bubblesort.BubbleSort" />
+      <module name="Patch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bubblesort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,17 +255,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mergesort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="StringBufferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringbuffer.StringBufferTest" />
-      <module name="Patch" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stringbuffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,18 +315,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.StringBufferTest" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.Airlinetickets" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.BubbleSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.Airlinetickets" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Airlinetickets" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.StringBufferTest" />
       </list>
     </recent_temporary>
   </component>
@@ -337,12 +349,12 @@
       <workItem from="1522385756611" duration="2682000" />
       <workItem from="1522390221309" duration="1225000" />
       <workItem from="1522394368174" duration="475000" />
-      <workItem from="1522396966040" duration="1230000" />
+      <workItem from="1522396966040" duration="4622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48407000" />
+    <option name="totallyTimeSpent" value="51799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -357,9 +369,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42998585" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42998585" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2524377" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.25176802" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26407507" />
@@ -379,33 +391,33 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.42998585" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42998585" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26407507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2524377" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.25176802" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295583" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295583" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33646113" />
+      <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,69 +427,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/atmoerror/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/alarmclock/AlarmClock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/atmoerror/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/alarmclock/AlarmClock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/hashcodetest/Range.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8345">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/hashcodetest/HashCodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-897" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/hashcodetest/修复方法及结果.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/hashcodetest/修复得到的pattern.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/hashcodetest/IntRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="355" column="33" lean-forward="true" selection-start-line="355" selection-start-column="33" selection-end-line="355" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/producerConsumer/修复得到的pattern.txt" />
-    <entry file="file://$PROJECT_DIR$/exportExamples/producerConsumer/ProducerConsumer.java" />
     <entry file="file://$PROJECT_DIR$/examples/reorder/CheckThread2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -633,7 +582,6 @@
     <entry file="file://$PROJECT_DIR$/examples/stringbuffer/StringBuffer.java" />
     <entry file="file://$PROJECT_DIR$/examples/mergesort/MergeSort.java" />
     <entry file="file://$PROJECT_DIR$/examples/mergesort/MSort.java" />
-    <entry file="file://$PROJECT_DIR$/examples/airlinetickets/Airlinetickets.java" />
     <entry file="file://$PROJECT_DIR$/examples/alarmclock/AlarmClock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -665,55 +613,138 @@
     <entry file="file://$PROJECT_DIR$/logFile/atmoerror/��֤�õ���pattern.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/atmoerror/BankAccount.java">
+    <entry file="file://$PROJECT_DIR$/logFile/atmoerror/修复得到的sequence.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="-342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/account/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/atmoerror/Customer.java">
+    <entry file="file://$PROJECT_DIR$/logFile/account/修复方法及结果.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="76">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/account/修复得到的pattern.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/atmoerror/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/atmoerror/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/atmoerror/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logFile/atmoerror/修复得到的pattern.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/atmoerror/修复得到的sequence.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logFile/atmoerror/修复方法及结果.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="114">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exportExamples/atmoerror/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
+        <state relative-caret-position="304">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/atmoerror/BankAccount.java">
+    <entry file="file://$PROJECT_DIR$/examples/airlinetickets/Airlinetickets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/airlinetickets/修复得到的pattern.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/account/Account.java">
+    <entry file="file://$PROJECT_DIR$/exportExamples/atmoerror/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285" />
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/airlinetickets/Airlinetickets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/allocationvector/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/allocationvector/TestThread.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/allocationvector/AllocationVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/bubblesort/BubbleSortImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/bubblesort/OneBubble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/bubblesort/Reporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/bubblesort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="23" />
+        </state>
       </provider>
     </entry>
   </component>
@@ -773,7 +804,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

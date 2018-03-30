@@ -1,5 +1,7 @@
-修复一
-添加信号量
-信号量定义位置:9
-信号量使用位置:20
+修复二
+锁的名字this
+锁的名字this
+对ReadWriteNode[78,atmoerror.BankAccount@15e,total,WRITE,Thread-2,atmoerror/BankAccount.java:7]加锁起止位置7->7
+锁的名字this
+对ReadWriteNode[100,atmoerror.BankAccount@15e,total,WRITE,Thread-1,atmoerror/BankAccount.java:7]加锁起止位置7->7
 结果: 修复失败

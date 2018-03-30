@@ -1,4 +1,5 @@
-修复一
-添加同步
-锁的名字this
-结果: 修复失败
+修复二
+锁的名字ac
+锁的名字ac
+对ReadWriteNode[1474,account.Account@1b7,amount,READ,Thread-4,account/Account.java:28]加锁起止位置28->28
+结果: 修复成功

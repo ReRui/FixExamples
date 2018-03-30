@@ -1,0 +1,8 @@
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[244,airlinetickets.Airlinetickets,Num_Of_Seats_Sold,WRITE,main,airlinetickets/Airlinetickets.java:16]
+	ReadWriteNode[337,airlinetickets.Airlinetickets,Num_Of_Seats_Sold,WRITE,Thread-1,airlinetickets/Airlinetickets.java:114]
+}
+success count: 50
+fail count: 0
