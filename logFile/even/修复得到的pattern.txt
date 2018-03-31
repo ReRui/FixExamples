@@ -1,0 +1,8 @@
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[246,even.EvenChecker@163,generator,WRITE,main,even/EvenChecker.java:8]
+	ReadWriteNode[368,even.EvenChecker@163,generator,READ,Thread-1,even/EvenChecker.java:17]
+}
+success count: 0
+fail count: 198

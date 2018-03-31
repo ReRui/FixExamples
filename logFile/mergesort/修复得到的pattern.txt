@@ -1,0 +1,9 @@
+Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[597,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:49]
+	ReadWriteNode[663,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:42]
+	ReadWriteNode[755,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:42]
+}
+success count: 2
+fail count: 12

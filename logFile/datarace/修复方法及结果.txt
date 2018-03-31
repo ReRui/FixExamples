@@ -1,0 +1,5 @@
+修复二
+对ReadWriteNode[599,datarace.Checker@1ce,buggy,WRITE,main,datarace/Checker.java:10]加锁起止位置28->28
+锁的名字this
+对ReadWriteNode[636,datarace.Checker@1ce,buggy,WRITE,Thread-7,datarace/Checker.java:15]加锁起止位置15->15
+结果: 修复失败
