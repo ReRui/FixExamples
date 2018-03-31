@@ -25,8 +25,8 @@ public class OneBubble extends Thread
      */
     public OneBubble(int [] array, int sleepingTime)
     {
-        st = sleepingTime;
-        arr = array;
+volatile bool flagFix = false;        st = sleepingTime;
+flagFix = true;        arr = array;
         size = arr.length;
     }
 
@@ -40,8 +40,8 @@ public class OneBubble extends Thread
         {
             try
             {
-                sleep(st);
-            }
+if(flagFix){                sleep(st);
+}            }
             catch (InterruptedException e)
             {}
         }

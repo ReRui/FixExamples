@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f4e1b6d-5c87-4e1a-a05a-150c9330506c" name="Default" comment="" />
+    <list default="true" id="9f4e1b6d-5c87-4e1a-a05a-150c9330506c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/checkfield/CheckField.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/checkfield/CheckField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/atmoerror/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/atmoerror/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/atmoerror/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/atmoerror/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/OneBubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/bubblesort/OneBubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/checkfield/CheckField.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/checkfield/CheckField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/datarace/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/datarace/Checker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/datarace/CustomerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/datarace/CustomerInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/datarace/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/datarace/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/even/EvenChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/even/EvenGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/even/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generateClass/atmoerror/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/generateClass/atmoerror/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generateClass/atmoerror/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/generateClass/atmoerror/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generateClass/checkfield/CheckField$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/generateClass/checkfield/CheckField$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generateClass/checkfield/CheckField$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/generateClass/checkfield/CheckField$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generateClass/checkfield/CheckField.class" beforeDir="false" afterPath="$PROJECT_DIR$/generateClass/checkfield/CheckField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generateClass/datarace/Checker.class" beforeDir="false" afterPath="$PROJECT_DIR$/generateClass/datarace/Checker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generateClass/datarace/CustomerInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/generateClass/datarace/CustomerInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generateClass/datarace/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/generateClass/datarace/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generateClass/even/EvenGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/generateClass/even/EvenGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/airlinetickets/修复得到的pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/airlinetickets/修复得到的pattern.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/atmoerror/verify pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/atmoerror/verify pattern.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/atmoerror/修复得到的pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/atmoerror/修复得到的pattern.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/atmoerror/修复得到的sequence.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/atmoerror/修复得到的sequence.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/atmoerror/修复方法及结果.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/atmoerror/修复方法及结果.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/checkfield/verify pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/checkfield/verify pattern.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/checkfield/修复得到的pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/checkfield/修复得到的pattern.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/checkfield/修复得到的sequence.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/checkfield/修复得到的sequence.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/checkfield/修复方法及结果.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/checkfield/修复方法及结果.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/datarace/verify pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/datarace/verify pattern.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/datarace/修复得到的pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/datarace/修复得到的pattern.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/datarace/修复得到的sequence.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/datarace/修复得到的sequence.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/datarace/修复方法及结果.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/datarace/修复方法及结果.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/even/verify pattern.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/even/修复得到的pattern.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/even/修复得到的sequence.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/even/修复方法及结果.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/checkfield/CheckField$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patch/checkfield/CheckField$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/checkfield/CheckField$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patch/checkfield/CheckField$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/checkfield/CheckField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patch/checkfield/CheckField.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,31 +53,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="修复方法及结果.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logFile/checkfield/修复方法及结果.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckField.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exportExamples/checkfield/CheckField.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="修复得到的pattern.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logFile/checkfield/修复得到的pattern.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -84,14 +102,18 @@
         <option value="$PROJECT_DIR$/examples/datarace/CustomerInfo.java" />
         <option value="$PROJECT_DIR$/exportExamples/datarace/Main.java" />
         <option value="$PROJECT_DIR$/exportExamples/datarace/Checker.java" />
-        <option value="$PROJECT_DIR$/exportExamples/even/EvenChecker.java" />
         <option value="$PROJECT_DIR$/examples/mergesort/MergeSort.java" />
         <option value="$PROJECT_DIR$/examples/mergesort/MSort.java" />
         <option value="$PROJECT_DIR$/examples/pack_test/CheckField.java" />
         <option value="$PROJECT_DIR$/examples/pingpong/BuggedProgram.java" />
-        <option value="$PROJECT_DIR$/examples/checkfield/CheckField.java" />
         <option value="$PROJECT_DIR$/examples/checkfield/InstanceExample.java" />
         <option value="$PROJECT_DIR$/exportExamples/checkfield/CheckField.java" />
+        <option value="$PROJECT_DIR$/examples/random/Rand.java" />
+        <option value="$PROJECT_DIR$/examples/checkfield/CheckField.java" />
+        <option value="$PROJECT_DIR$/exportExamples/atmoerror/Customer.java" />
+        <option value="$PROJECT_DIR$/exportExamples/datarace/CustomerInfo.java" />
+        <option value="$PROJECT_DIR$/exportExamples/even/EvenChecker.java" />
+        <option value="$PROJECT_DIR$/exportExamples/even/EvenGenerator.java" />
       </list>
     </option>
   </component>
@@ -117,6 +139,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,13 +155,19 @@
             <path>
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="even" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patch" type="462c0819:PsiDirectoryNode" />
               <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
               <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="checkfield" type="462c0819:PsiDirectoryNode" />
+              <item name="even" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
@@ -149,13 +178,12 @@
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
               <item name="logFile" type="462c0819:PsiDirectoryNode" />
-              <item name="checkfield" type="462c0819:PsiDirectoryNode" />
+              <item name="even" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,6 +198,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="random" />
       <recent name="checkfield" />
       <recent name="consisitency" />
       <recent name="airlinetickets" />
@@ -192,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckField (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -207,24 +236,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CheckField" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pack_test.CheckField" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datarace.Main" />
       <module name="Patch" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pack_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mergesort.MergeSort" />
-      <module name="Patch" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mergesort.*" />
+          <option name="PATTERN" value="datarace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,6 +265,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="producerConsumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Rand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="random.Rand" />
+      <module name="Patch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="random.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,19 +335,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.MergeSort" />
-      <item itemvalue="Application.CheckField" />
       <item itemvalue="Application.PingPong" />
       <item itemvalue="Application.ProducerConsumer" />
       <item itemvalue="Application.CheckField (1)" />
+      <item itemvalue="Application.Rand" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Rand" />
         <item itemvalue="Application.CheckField (1)" />
         <item itemvalue="Application.ProducerConsumer" />
         <item itemvalue="Application.PingPong" />
-        <item itemvalue="Application.CheckField" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +371,8 @@
       <workItem from="1522390221309" duration="1225000" />
       <workItem from="1522394368174" duration="475000" />
       <workItem from="1522396966040" duration="17955000" />
-      <workItem from="1522463528237" duration="3794000" />
+      <workItem from="1522463528237" duration="8346000" />
+      <workItem from="1522474430333" duration="7292000" />
     </task>
     <servers />
   </component>
@@ -352,11 +382,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68926000" />
+    <option name="totallyTimeSpent" value="80770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -367,19 +396,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.42998585" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.2503536" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26742628" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26742628" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -429,184 +458,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/bubblesort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/bubblesort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/bufwriter/BufWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/bufwriter/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/bufwriter/SyncWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/consisitency/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/consisitency/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/consisitency/修复得到的pattern.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="84" lean-forward="true" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/验证修复的结果.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/critical/Critical.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="51" column="85" selection-start-line="51" selection-start-column="85" selection-end-line="51" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/critical/修复得到的pattern.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/critical/Critical.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/critical/修复方法及结果.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/datarace/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/datarace/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/datarace/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/datarace/CustomerInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/datarace/ThreadRun.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/datarace/修复得到的pattern.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/datarace/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/datarace/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/datarace/CustomerInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/even/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/even/EvenGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/even/EvenGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/even/EvenChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -631,9 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/mergesort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/exportExamples/mergesort/MSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -645,17 +497,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#2857#2858#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#3770#3771#0" expanded="true" />
-            <element signature="e#3813#3814#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/pack_test/InstanceExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/pack_test/CheckField.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -699,12 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/pingpong/修复方法及结果.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/pingpong/修复得到的pattern.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/exportExamples/pingpong/BuggedProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1227">
@@ -734,30 +571,239 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/checkfield/InstanceExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/checkfield/CheckField.java">
+    <entry file="file://$PROJECT_DIR$/logFile/checkfield/修复得到的pattern.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="95">
+          <caret line="5" column="90" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/checkfield/CheckField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logFile/checkfield/修复方法及结果.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/random/Rand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/checkfield/CheckField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#208#414#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#451#559#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/atmoerror/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/atmoerror/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/atmoerror/修复得到的pattern.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="87" lean-forward="true" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/atmoerror/修复方法及结果.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/atmoerror/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/atmoerror/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/airlinetickets/Airlinetickets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/bubblesort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-999">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/bubblesort/BubbleSortImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1493" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/bubblesort/OneBubble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/bufwriter/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/bufwriter/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/bufwriter/BufWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/bufwriter/修复得到的pattern.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/bufwriter/SyncWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="26" column="15" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/datarace/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/datarace/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/datarace/修复得到的pattern.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/datarace/修复方法及结果.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/datarace/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/datarace/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/datarace/CustomerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="25" column="79" selection-start-line="25" selection-start-column="79" selection-end-line="25" selection-end-column="79" />
+          <folding>
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/even/修复得到的pattern.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="99" lean-forward="true" selection-start-line="4" selection-start-column="99" selection-end-line="4" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/even/EvenChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/even/EvenGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/even/修复方法及结果.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
           <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/checkfield/修复得到的pattern.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/checkfield/CheckField.java">
+    <entry file="file://$PROJECT_DIR$/examples/even/EvenChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="437">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/even/EvenGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/even/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>

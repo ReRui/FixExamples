@@ -1,8 +1,8 @@
 Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[244,airlinetickets.Airlinetickets,Num_Of_Seats_Sold,WRITE,main,airlinetickets/Airlinetickets.java:16]
-	ReadWriteNode[337,airlinetickets.Airlinetickets,Num_Of_Seats_Sold,WRITE,Thread-1,airlinetickets/Airlinetickets.java:114]
+	ReadWriteNode[741,airlinetickets.Airlinetickets@160,StopSales,WRITE,Thread-9,airlinetickets/Airlinetickets.java:117]
+	ReadWriteNode[761,airlinetickets.Airlinetickets@160,StopSales,WRITE,Thread-10,airlinetickets/Airlinetickets.java:117]
 }
-success count: 50
+success count: 1
 fail count: 0

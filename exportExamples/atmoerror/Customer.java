@@ -6,8 +6,8 @@ public class Customer implements Runnable{
 	  private int cash;
 
 	  public Customer(int cash, BankAccount account) {
-	      this.cash = cash;
-	      this.account = account;
+volatile bool flagFix = false;	      this.cash = cash;
+flagFix = true;	      this.account = account;
 	  }
 
 	  public void cost(int n) {
@@ -17,8 +17,8 @@ public class Customer implements Runnable{
 
 	  @Override
 	  public void run() {
-	      while(cash > 0) {  //直至将钱用光
-	          cost(1);
+if(flagFix){	      while(cash > 0) {  //直至将钱用光
+}	          cost(1);
 	      }
 	      System.out.println("total: " + account.getTotal());   //打印出银行账户的总计金额
 	      if(account.getTotal() != 10)
