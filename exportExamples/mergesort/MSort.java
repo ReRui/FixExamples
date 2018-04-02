@@ -39,15 +39,15 @@ public class MSort extends Thread
         {
 
 
-synchronized (this){                  m_iCurrentThreadsAlive++;
-}
+                  m_iCurrentThreadsAlive++;
+
         }
 
         //Get a state of available threads in the system and allocate them
         public static synchronized int AvailableThreadsState()//0 - No threads,1 - 1 thread available,2 - 2 threads avilable
         {
-synchronized (this){                 int availableThreads=m_iThreadLimit - m_iCurrentThreadsAlive;
-}                if ((availableThreads)==0)
+                 int availableThreads=m_iThreadLimit - m_iCurrentThreadsAlive;
+                if ((availableThreads)==0)
                     {
                         return 0;
                     }
@@ -223,17 +223,17 @@ synchronized (this){                 int availableThreads=m_iThreadLimit - m_iCu
 
         public void Sorting()
         {
-                if (!bIsInit)//If invoked with String/Silence Constractor,initialization is a mandatory demand
+                synchronized (this) {if (!bIsInit)//If invoked with String/Silence Constractor,initialization is a mandatory demand
                 {
                         System.out.println("The data isn't initialized !");
                         return;
-                }
+                }}
                 int iSize = m_iArray.length;
                 if (iSize == 1)//Recursion stop condition
                         return;
                 int[] iA = new int[iSize/2];//Split a source array to Left/Right arrays
                 int[] iB = new int[iSize - (iSize/2)];
-                CopyArrays(m_iArray,iA,iB);
+            synchronized (this) {CopyArrays(m_iArray,iA,iB);}
                 
                 
                     int iMultiThreadedSons = AvailableThreadsState();//Get available threads state
