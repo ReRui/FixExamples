@@ -25,5 +25,59 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/additionalJAR/javax.jms.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/additionalJAR/jdmkrt.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/additionalJAR/mail.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/additionalJAR/lib/realLib/commons-dbcp-1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/additionalJAR/lib/realLib/commons-pool-1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/additionalJAR/lib/realLib/commons-collections-2.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/additionalJAR/lib/realLib/commons-pool-1.4-SNAPSHOT.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/additionalJAR/lib/realLib/commons-pool-1.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/additionalJAR/lib/realLib/coring-1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/lib/additionalJAR/lib/realLib/commons-pool-1.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/additionalJAR/lib/realLib/jacontebe-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/lib/additionalJAR/lib/realLib/jacontebe-1.0.jar!/doc" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

@@ -3,18 +3,97 @@
   <component name="ChangeListManager">
     <list default="true" id="9f4e1b6d-5c87-4e1a-a05a-150c9330506c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/consisitency/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/consisitency/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/pack_test/CheckField.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/pack_test/InstanceExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/consisitency/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/consisitency/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/consisitency/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/generateClass/consisitency/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Patch/mergesort/MSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patch/mergesort/MSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Patch/pack_test/CheckField$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Patch/pack_test/CheckField$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Patch/pack_test/CheckField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Patch/pack_test/InstanceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Patch/rand/Rand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Patch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/account/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/account/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/account/ManageAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/accountsubtype/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/accountsubtype/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/accountsubtype/BusinessAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/accountsubtype/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/accountsubtype/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/accountsubtype/PersonalAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/airline/Bug.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/airline/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/airlinetickets/Airlinetickets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/alarmclock/AlarmClock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/alarmclock/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/alarmclock/Clock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/alarmclock/Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/alarmclock/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/alarmclock/MyObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/atmoerror/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/atmoerror/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/atmoerror/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/bubblesort/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/bubblesort/BubbleSortImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/bubblesort/OneBubble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/bubblesort/Reporter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/bufwriter/BufWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/bufwriter/Buffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/bufwriter/Checker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/bufwriter/SyncWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/bufwriter/Writer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/checkfield/CheckField$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/checkfield/CheckField$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/checkfield/CheckField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/checkfield/InstanceExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/consisitency/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/critical/Critical.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/critical/Section.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/datarace/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/datarace/Checker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/datarace/CustomerInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/datarace/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/datarace/ThreadRun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/even/EvenChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/even/EvenGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/even/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/hashcodetest/HashCodeTest$hashThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/hashcodetest/HashCodeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/hashcodetest/IntRange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/hashcodetest/NumberUtils$StringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/hashcodetest/NumberUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/hashcodetest/Range.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/linkedlist/BugTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/linkedlist/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/linkedlist/MyLinkedListItr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/linkedlist/MyListBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/linkedlist/MyListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/mergesort/MSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/mergesort/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/pingpong/BugThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/pingpong/BuggedProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/pingpong/PP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/pingpong/PingPong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/producerConsumer/AttrData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/producerConsumer/Attribute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/producerConsumer/Buffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/producerConsumer/BufferInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/producerConsumer/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/producerConsumer/HaltException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/producerConsumer/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/producerConsumer/ProducerConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/reorder/CheckThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/reorder/CheckThread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/reorder/ReorderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/reorder/ReorderTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/reorder/SetCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/reorder/SetCheck2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/reorder/SetThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/reorder/SetThread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/store/Store.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/store/StoreTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/twoStage/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/twoStage/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/twoStage/ReadThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/twoStage/TwoStage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/twoStage/TwoStageThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/wrongLock/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/wrongLock/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/wrongLock/TClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/wrongLock/TClass2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/wrongLock/WrongLock.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +105,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exportExamples/consisitency/Main.java">
+      <file leaf-file-name="Dbcp271.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/dbcp/Dbcp271.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="133">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,6 +189,7 @@
         <option value="$PROJECT_DIR$/examples/consisitency/Main.java" />
         <option value="$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java" />
         <option value="$PROJECT_DIR$/exportExamples/consisitency/Main.java" />
+        <option value="$PROJECT_DIR$/examples/org/apache/commons/dbcp/datasources/KeyedCPDSConnectionFactory.java" />
       </list>
     </option>
   </component>
@@ -145,6 +228,34 @@
             <path>
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patch" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patch" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="dbcp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patch" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="log4j" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patch" type="462c0819:PsiDirectoryNode" />
               <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -176,7 +287,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/test/heu-search" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/additionalJAR/lib/realLib/jacontebe-1.0.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -191,6 +302,7 @@
       <recent name="airlinetickets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Patch\examples\org\apache" />
       <recent name="D:\Patch\examples" />
       <recent name="D:\Patch\examples\mergesort" />
       <recent name="D:\Patch\examples\stringbuffer" />
@@ -208,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.TestThrowableStrRep">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -219,17 +331,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="checkfield.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="CheckField" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pack_test.CheckField" />
-      <module name="Patch" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pack_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,6 +364,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="accountsubtype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestThrowableStrRep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.log4j.TestThrowableStrRep" />
+      <module name="Patch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.log4j.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,19 +434,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.CheckField" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.CheckField (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.TestThrowableStrRep" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestThrowableStrRep" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CheckField (1)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.CheckField" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +477,7 @@
       <workItem from="1522634207428" duration="2335000" />
       <workItem from="1522651714726" duration="7931000" />
       <workItem from="1522674318577" duration="4175000" />
-      <workItem from="1522718411983" duration="2197000" />
+      <workItem from="1522718411983" duration="4184000" />
     </task>
     <servers />
   </component>
@@ -378,7 +490,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103811000" />
+    <option name="totallyTimeSpent" value="105798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -386,7 +498,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295583" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.3281471" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -425,44 +537,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4598">
-          <caret line="242" column="29" lean-forward="true" selection-start-line="242" selection-start-column="29" selection-end-line="242" selection-end-column="29" />
-          <folding>
-            <element signature="e#6743#6744#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/bubblesort/BubbleSortImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1227">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/bubblesort/OneBubble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/bubblesort/Reporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1892">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/linkedlist/BugTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-296">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/linkedlist/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1607">
@@ -502,6 +576,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -746,10 +825,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/dbcp/cpdsadapter/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exportExamples/consisitency/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state>
+          <caret column="20" selection-start-column="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/dbcp/cpdsadapter/PooledConnectionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/dbcp/cpdsadapter/DriverAdapterCPDS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/dbcp/SQLNestedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/additionalJAR/lib/realLib/commons-pool-1.5-sources.jar!/org/apache/commons/pool/KeyedPoolableObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/dbcp/datasources/KeyedCPDSConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/log4j/TestThrowableStrRep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/dbcp/Dbcp271.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -770,7 +908,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
