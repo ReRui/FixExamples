@@ -6,14 +6,15 @@ public class Main implements Runnable {
     public static int a = 0;
     public static int b = 0;
     private int num;
+    Object o = new Object();
 
     public Main(int num) {
         this.num = num;
     }
 
     public void run() {
-        a = num;
-        synchronized (this) {
+        synchronized (o) {
+            a = num;
             b = num;
         }
     }
