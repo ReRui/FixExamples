@@ -270,7 +270,7 @@ public class LoggerDynamicMBean extends AbstractDynamicMBean
   }
 
   public
-  void postRegister(Boolean registrationDone) {
+  void postRegister(java.lang.Boolean registrationDone) {
     appenderMBeanRegistration();
   }
 }

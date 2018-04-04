@@ -19,17 +19,17 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 /**
- * Abstract factory interface for creating {@link Connection}s.
+ * Abstract factory interface for creating {@link java.sql.Connection}s.
  *
  * @author Rodney Waldhoff
  * @version $Revision: 1.6 $ $Date: 2004/02/28 12:18:17 $
  */
 public interface ConnectionFactory {
     /**
-     * Create a new {@link Connection} in an
+     * Create a new {@link java.sql.Connection} in an
      * implementation specific fashion.
      *
-     * @return a new {@link Connection}
+     * @return a new {@link java.sql.Connection}
      */
     public abstract Connection createConnection() throws SQLException;
 }

@@ -463,7 +463,7 @@ public class Category implements AppenderAttachable {
 
   /**
      Returns all the currently defined categories in the default
-     hierarchy as an {@link Enumeration Enumeration}.
+     hierarchy as an {@link java.util.Enumeration Enumeration}.
 
      <p>The root category is <em>not</em> included in the returned
      {@link Enumeration}.

@@ -185,7 +185,7 @@ public class SharedPoolDataSource
 
     private void registerPool(
         String username, String password) 
-        throws NamingException, SQLException {
+        throws javax.naming.NamingException, SQLException {
 
         ConnectionPoolDataSource cpds = testCPDS(username, password);
 

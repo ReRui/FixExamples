@@ -300,7 +300,7 @@ public class DOMConfigurator implements Configurator {
   void parseErrorHandler(Element element, Appender appender) {
     ErrorHandler eh = (ErrorHandler) OptionConverter.instantiateByClassName(
                                        subst(element.getAttribute(CLASS_ATTR)),
-                                       ErrorHandler.class,
+                                       org.apache.log4j.spi.ErrorHandler.class, 
  				       null);
     
     if(eh != null) {

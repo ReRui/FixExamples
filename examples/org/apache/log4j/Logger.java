@@ -157,7 +157,7 @@ public class Logger extends Category {
   }
 
     /**
-     * Log a message object with the {@link Level#TRACE TRACE} level.
+     * Log a message object with the {@link org.apache.log4j.Level#TRACE TRACE} level.
      *
      * @param message the message object to log.
      * @see #debug(Object) for an explanation of the logic applied.

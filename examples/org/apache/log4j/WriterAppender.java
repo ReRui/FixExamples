@@ -31,8 +31,8 @@ import org.apache.log4j.helpers.LogLog;
 //              Ben Sandee
 
 /**
-   WriterAppender appends log events to a {@link Writer} or an
-   {@link OutputStream} depending on the user's choice.
+   WriterAppender appends log events to a {@link java.io.Writer} or an
+   {@link java.io.OutputStream} depending on the user's choice.
 
    @author Ceki G&uuml;lc&uuml;
    @since 1.1 */
@@ -206,7 +206,7 @@ public class WriterAppender extends AppenderSkeleton {
   }
 
   /**
-   * Close the underlying {@link Writer}.
+   * Close the underlying {@link java.io.Writer}.
    * */
   protected void closeWriter() {
     if(qw != null) {

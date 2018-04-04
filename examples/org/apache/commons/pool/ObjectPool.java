@@ -48,7 +48,7 @@ public interface ObjectPool {
      * Obtain an instance from my pool.
      * By contract, clients MUST return
      * the borrowed instance using
-     * {@link #returnObject(Object) returnObject}
+     * {@link #returnObject(java.lang.Object) returnObject}
      * or a related method as defined in an implementation
      * or sub-interface.
      * <p>

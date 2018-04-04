@@ -82,7 +82,7 @@ public class Roller {
     try {
       port =  Integer.parseInt(portArg);
     }
-    catch(NumberFormatException e) {
+    catch(java.lang.NumberFormatException e) {
       usage("Second argument "+portArg+" is not a valid integer.");
     }
   }

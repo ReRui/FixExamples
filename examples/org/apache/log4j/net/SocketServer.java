@@ -139,7 +139,7 @@ public class SocketServer  {
     try {
       port = Integer.parseInt(portStr);
     }
-    catch(NumberFormatException e) {
+    catch(java.lang.NumberFormatException e) {
       e.printStackTrace();
       usage("Could not interpret port number ["+ portStr +"].");
     }

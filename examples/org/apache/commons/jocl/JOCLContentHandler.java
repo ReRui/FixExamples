@@ -33,13 +33,13 @@ import java.io.IOException;
 //  ? some kind of support for invoking methods?
 
 /**
- * A {@link ContentHandler}
+ * A {@link org.xml.sax.ContentHandler}
  * for the Java Object Configuration Language.
  * <p>
  * JOCL provides an XML syntax for constructing arbitrary Java
- * {@link Object} instances.  It does not define a full
+ * {@link java.lang.Object} instances.  It does not define a full
  * XML document type (there's no root element), but rather an
- * XML fragment describing the {@link Object <tt>Object</tt>s} to be
+ * XML fragment describing the {@link java.lang.Object <tt>Object</tt>s} to be
  * constructed.
  * <p>
  * In a JOCL fragment, one may define a series of objects using
@@ -49,7 +49,7 @@ import java.io.IOException;
  * using the no-argument constructor.
  * <p>
  * After a "root-level" <tt>&lt;object&gt;</tt> element has been processed
- * (that is, once {@link #endElement(String,String,String)}
+ * (that is, once {@link #endElement(java.lang.String,java.lang.String,java.lang.String)}
  * has been invoked by the {@link XMLReader}), it will be appended to a list of <tt>Object</tt>s
  * maintained by the <tt>JOCLContentHandler</tt>.
  * <p>
@@ -69,7 +69,7 @@ import java.io.IOException;
  * The {@link #getTypeArray} method
  * will return an composed
  * of two instances of <tt>java.util.Date</tt>.  The sequence of
- * {@link Object <tt>Object</tt>s} in the array
+ * {@link java.lang.Object <tt>Object</tt>s} in the array
  * will correspond to the sequence of <tt>&lt;object&gt;</tt> elements in the JOCL fragment.
  * <p>
  * As we've seen, when used with no child-elements, the <tt>&lt;object&gt;</tt>
@@ -84,7 +84,7 @@ import java.io.IOException;
  * <tt>new mypackage.Foo(new mypackage.Bar())</tt>.
  * <p>
  * There is a special syntax available creating primative values and arguments,
- * as well as for constructing {@link String <tt>String</tt>}s. Some examples:
+ * as well as for constructing {@link java.lang.String <tt>String</tt>}s. Some examples:
  * <p>
  * <pre> &lt;byte value="3"/&gt;
  * &lt;boolean value="false"/&gt;
@@ -98,24 +98,24 @@ import java.io.IOException;
  * <p>
  * When invoked at the "root" level (that is, with no <tt>&lt;object&gt;</tt> parent),
  * this will cause the corresponding "object wrapper" to be added to the list of
- * {@link Object <tt>Object</tt>}s.  The {@link #getType type} for these
+ * {@link java.lang.Object <tt>Object</tt>}s.  The {@link #getType type} for these
  * objects will reflect the proper primative type, however.  When invoked with an
  * <tt>&lt;object&gt;</tt> parent, these will be treated as primitive arguments to the
- * specified {@link Object <tt>Object</tt>}'s constructor.  For example, while:
+ * specified {@link java.lang.Object <tt>Object</tt>}'s constructor.  For example, while:
  * <p>
  * <pre> &lt;int value="5"/&gt;
  * &lt;int value="26"/&gt;
  * &lt;int value="100"/&gt;</pre>
  * <p>
- * results in three {@link Integer} instances being added to the
- * list of values, with types corresponding to {@link Integer}, the fragment:
+ * results in three {@link java.lang.Integer} instances being added to the
+ * list of values, with types corresponding to {@link java.lang.Integer}, the fragment:
  * <p>
  * <pre> &lt;int value="5"/&gt;
  * &lt;int value="26"/&gt;
  * &lt;int value="100"/&gt;</pre>
  * <p>
- * results in three {@link Integer} instances being added to the
- * list of values, with types corresponding to {@link Integer#TYPE}.
+ * results in three {@link java.lang.Integer} instances being added to the
+ * list of values, with types corresponding to {@link java.lang.Integer#TYPE}.
  * <p>
  * Hence if you want to invoke the <tt>mypackage.Foo(java.lang.Integer,java.lang.Integer,java.lang.Integer)</tt>
  * constructor, use:
@@ -193,7 +193,7 @@ import java.io.IOException;
  * &lt;!ATTLIST string value CDATA #REQUIRED&gt;
  * </pre>
  * <p>
- * This class can also be used as a base class for {@link ContentHandler}s
+ * This class can also be used as a base class for {@link org.xml.sax.ContentHandler}s
  * that include JOCL as part of their grammar.  Simply extend this class, and override the
  * {@link #startElement},
  * {@link #characters},
@@ -536,7 +536,7 @@ public class JOCLContentHandler extends DefaultHandler implements ContentHandler
     }
 
     /**
-     * Equivalent to {@link #getAttributeValue(String,Attributes,String) <tt>getAttributeValue(localname,attr,null)</tt>}.
+     * Equivalent to {@link #getAttributeValue(java.lang.String,org.xml.sax.Attributes,java.lang.String) <tt>getAttributeValue(localname,attr,null)</tt>}.
      */
     protected String getAttributeValue(String localname, Attributes attr) {
         return getAttributeValue(localname,attr,null);

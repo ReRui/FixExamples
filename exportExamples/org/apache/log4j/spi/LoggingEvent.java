@@ -211,7 +211,7 @@ public class LoggingEvent implements java.io.Serializable {
                         final ThrowableInformation throwable,
                         final String ndc,
                         final LocationInfo info,
-                        final Map properties) {
+                        final java.util.Map properties) {
       super();
       this.fqnOfCategoryClass = fqnOfCategoryClass;
       this.logger = logger;
@@ -233,7 +233,7 @@ public class LoggingEvent implements java.io.Serializable {
       this.locationInfo = info;
       mdcCopyLookupRequired = false;
       if (properties != null) {
-        mdcCopy = new Hashtable(properties);
+        mdcCopy = new java.util.Hashtable(properties);
       }
     }
 

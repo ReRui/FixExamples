@@ -101,7 +101,7 @@ class ConnectionImpl implements Connection {
     // ***********************************************************************
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -127,7 +127,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -138,7 +138,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -149,7 +149,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -163,7 +163,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -174,7 +174,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -185,7 +185,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -196,7 +196,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -207,7 +207,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -218,7 +218,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -238,7 +238,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -249,7 +249,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -260,7 +260,7 @@ class ConnectionImpl implements Connection {
     }    
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -271,7 +271,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -286,7 +286,7 @@ class ConnectionImpl implements Connection {
     /**
      * If pooling of <code>PreparedStatement</code>s is turned on in the
      * {@link DriverAdapterCPDS}, a pooled object may be returned, otherwise
-     * delegate to the wrapped jdbc 1.x {@link Connection}.
+     * delegate to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -299,7 +299,7 @@ class ConnectionImpl implements Connection {
     /**
      * If pooling of <code>PreparedStatement</code>s is turned on in the
      * {@link DriverAdapterCPDS}, a pooled object may be returned, otherwise
-     * delegate to the wrapped jdbc 1.x {@link Connection}.
+     * delegate to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -313,7 +313,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -324,7 +324,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -335,7 +335,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -346,7 +346,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -357,7 +357,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.
@@ -368,7 +368,7 @@ class ConnectionImpl implements Connection {
     }
 
     /**
-     * Pass thru method to the wrapped jdbc 1.x {@link Connection}.
+     * Pass thru method to the wrapped jdbc 1.x {@link java.sql.Connection}.
      *
      * @exception SQLException if this connection is closed or an error occurs
      * in the wrapped connection.

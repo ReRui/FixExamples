@@ -59,7 +59,7 @@ public abstract class StreamUtils {
   /**
    * Copies information from the input stream to the output stream using
    * a default buffer size of 2048 bytes.
-   * @throws IOException
+   * @throws java.io.IOException
    */
   public static void copy(InputStream input, OutputStream output)
       throws IOException {
@@ -69,7 +69,7 @@ public abstract class StreamUtils {
   /**
    * Copies information from the input stream to the output stream using
    * the specified buffer size
-   * @throws IOException
+   * @throws java.io.IOException
    */
   public static void copy(InputStream input,
       OutputStream output,
@@ -87,7 +87,7 @@ public abstract class StreamUtils {
   /**
    * Copies information between specified streams and then closes
    * both of the streams.
-   * @throws IOException
+   * @throws java.io.IOException
    */
   public static void copyThenClose(InputStream input, OutputStream output)
       throws IOException {
@@ -99,7 +99,7 @@ public abstract class StreamUtils {
   /**
    * @return a byte[] containing the information contained in the
    * specified InputStream.
-   * @throws IOException
+   * @throws java.io.IOException
    */
   public static byte[] getBytes(InputStream input)
       throws IOException {

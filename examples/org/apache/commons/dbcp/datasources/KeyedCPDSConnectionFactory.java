@@ -30,7 +30,6 @@ import javax.sql.ConnectionPoolDataSource;
 import javax.sql.PooledConnection;
 
 import org.apache.commons.dbcp.SQLNestedException;
-
 import org.apache.commons.pool.KeyedObjectPool;
 import org.apache.commons.pool.KeyedPoolableObjectFactory;
 
@@ -112,7 +111,7 @@ class KeyedCPDSConnectionFactory
     /**
      * @param key
      * @throws SQLException if the connection could not be created.
-     * @see org.apache.commons.pool.KeyedPoolableObjectFactory#makeObject(Object)
+     * @see org.apache.commons.pool.KeyedPoolableObjectFactory#makeObject(java.lang.Object)
      */
     public synchronized Object makeObject(Object key) throws Exception {
         Object obj = null;

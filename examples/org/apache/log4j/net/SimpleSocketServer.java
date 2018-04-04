@@ -83,7 +83,7 @@ public class SimpleSocketServer  {
   static void init(String portStr, String configFile) {
     try {
       port = Integer.parseInt(portStr);
-    } catch(NumberFormatException e) {
+    } catch(java.lang.NumberFormatException e) {
       e.printStackTrace();
       usage("Could not interpret port number ["+ portStr +"].");
     }

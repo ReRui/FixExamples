@@ -26,11 +26,11 @@ import org.apache.log4j.helpers.OptionConverter;
  *
  * <p>The filter admits two options <b>StringToMatch</b> and
  * <b>AcceptOnMatch</b>. If there is a match between the value of the
- * StringToMatch option and the message of the {@link LoggingEvent},
- * then the {@link #decide(LoggingEvent)} method returns {@link Filter#ACCEPT} if
+ * StringToMatch option and the message of the {@link org.apache.log4j.spi.LoggingEvent},
+ * then the {@link #decide(LoggingEvent)} method returns {@link org.apache.log4j.spi.Filter#ACCEPT} if
  * the <b>AcceptOnMatch</b> option value is true, if it is false then
- * {@link Filter#DENY} is returned. If there is no match, {@link
- * Filter#NEUTRAL} is returned.
+ * {@link org.apache.log4j.spi.Filter#DENY} is returned. If there is no match, {@link
+ * org.apache.log4j.spi.Filter#NEUTRAL} is returned.
  *
  * @author Ceki G&uuml;lc&uuml;
  * @since 0.9.0 

@@ -199,14 +199,14 @@ public class DateFormatManager {
   }
 
   /**
-   * @throws ParseException
+   * @throws java.text.ParseException
    */
   public Date parse(String date) throws ParseException {
     return getDateFormatInstance().parse(date);
   }
 
   /**
-   * @throws ParseException
+   * @throws java.text.ParseException
    */
   public Date parse(String date, String pattern) throws ParseException {
     DateFormat formatter = null;

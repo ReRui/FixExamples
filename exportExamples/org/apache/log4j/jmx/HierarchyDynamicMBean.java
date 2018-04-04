@@ -141,7 +141,7 @@ public class HierarchyDynamicMBean extends AbstractDynamicMBean
   public
   void addNotificationListener(NotificationListener listener,
 			       NotificationFilter filter,
-			       Object handback) {
+			       java.lang.Object handback) {
     nbs.addNotificationListener(listener, filter, handback);
   }
 
@@ -250,7 +250,7 @@ public class HierarchyDynamicMBean extends AbstractDynamicMBean
   }
 
   public
-  void postRegister(Boolean registrationDone) {
+  void postRegister(java.lang.Boolean registrationDone) {
     log.debug("postRegister is called.");
     hierarchy.addHierarchyEventListener(this);
     Logger root = hierarchy.getRootLogger();

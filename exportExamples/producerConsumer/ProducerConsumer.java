@@ -11,29 +11,33 @@ public class ProducerConsumer {
     public static int CONS = 4;
     public static int COUNT = 8;
     public static int total = 0;
+    static ProducerConsumer o = new ProducerConsumer();
+
     public static void main(String[] args) throws Exception {
         if (args != null && args.length == 3) {
-	  PRODS = Integer.parseInt(args[0]);
-	  CONS = Integer.parseInt(args[1]);
-	  COUNT = Integer.parseInt(args[2]);
-	}
+            PRODS = Integer.parseInt(args[0]);
+            CONS = Integer.parseInt(args[1]);
+            COUNT = Integer.parseInt(args[2]);
+        }
 
         Consumer[] cons = new Consumer[CONS];
         Buffer b = new Buffer(5);
         Producer p;
 
         for (int i = 0; i < PRODS; i++)
-          p = new Producer(b);
+            p = new Producer(b);
 
         for (int i = 0; i < CONS; i++)
-          cons[i] = new Consumer(b);
+            cons[i] = new Consumer(b);
 
         for (int i = 0; i < CONS; i++)
-          cons[i].join();
+            cons[i].join();
 
-synchronized (this){         if (total != COUNT*PRODS)
-          throw new RuntimeException("bug found - total is "+total+" and should be "+COUNT*PRODS);
-}    }
+        synchronized (o) {
+            if (total != COUNT * PRODS)
+                throw new RuntimeException("bug found - total is " + total + " and should be " + COUNT * PRODS);
+        }
+    }
 }
 
 class HaltException extends Exception {
@@ -177,11 +181,11 @@ class Consumer extends Thread {
 
         while (count < received.length) {
             received[count] = (AttrData) buffer.get();
-            if(received[count] == null) {
-                break;    
+            if (received[count] == null) {
+                break;
             } else {
-		inc(received[count].data);
-	    }
+                inc(received[count].data);
+            }
             count++;
         }
 
@@ -189,6 +193,6 @@ class Consumer extends Thread {
     }
 
     public synchronized void inc(int x) {
-synchronized (this){ 	ProducerConsumer.total = ProducerConsumer.total + x;
-}    }
+        ProducerConsumer.total = ProducerConsumer.total + x;
+    }
 }

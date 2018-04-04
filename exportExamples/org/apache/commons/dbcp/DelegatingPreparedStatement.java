@@ -147,14 +147,14 @@ public class DelegatingPreparedStatement extends DelegatingStatement
     public void setTimestamp(int parameterIndex, java.sql.Timestamp x) throws SQLException
     { checkOpen(); try { _stmt.setTimestamp(parameterIndex,x); } catch (SQLException e) { handleException(e); } }
 
-    public void setAsciiStream(int parameterIndex, InputStream x, int length) throws SQLException
+    public void setAsciiStream(int parameterIndex, java.io.InputStream x, int length) throws SQLException
     { checkOpen(); try { _stmt.setAsciiStream(parameterIndex,x,length); } catch (SQLException e) { handleException(e); } }
 
     /** @deprecated */
-    public void setUnicodeStream(int parameterIndex, InputStream x, int length) throws SQLException
+    public void setUnicodeStream(int parameterIndex, java.io.InputStream x, int length) throws SQLException
     { checkOpen(); try { _stmt.setUnicodeStream(parameterIndex,x,length); } catch (SQLException e) { handleException(e); } }
     
-    public void setBinaryStream(int parameterIndex, InputStream x, int length) throws SQLException
+    public void setBinaryStream(int parameterIndex, java.io.InputStream x, int length) throws SQLException
     { checkOpen(); try { _stmt.setBinaryStream(parameterIndex,x,length); } catch (SQLException e) { handleException(e); } }
 
     public void clearParameters() throws SQLException
@@ -175,7 +175,7 @@ public class DelegatingPreparedStatement extends DelegatingStatement
     public void addBatch() throws SQLException
     { checkOpen(); try { _stmt.addBatch(); } catch (SQLException e) { handleException(e); } }
 
-    public void setCharacterStream(int parameterIndex, Reader reader, int length) throws SQLException
+    public void setCharacterStream(int parameterIndex, java.io.Reader reader, int length) throws SQLException
     { checkOpen(); try { _stmt.setCharacterStream(parameterIndex,reader,length); } catch (SQLException e) { handleException(e); } }
 
     public void setRef(int i, Ref x) throws SQLException

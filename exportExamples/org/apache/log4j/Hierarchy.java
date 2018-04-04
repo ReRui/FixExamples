@@ -293,7 +293,7 @@ public class Hierarchy implements LoggerRepository, RendererSupport {
 
   /**
      Returns all the currently defined categories in this hierarchy as
-     an {@link Enumeration Enumeration}.
+     an {@link java.util.Enumeration Enumeration}.
 
      <p>The root logger is <em>not</em> included in the returned
      {@link Enumeration}.  */

@@ -34,7 +34,7 @@ public class AttributesRenderer implements ObjectRenderer {
 
 
   /**
-     Render a {@link Attributes}.
+     Render a {@link org.xml.sax.Attributes}.
   */
   public
   String  doRender(Object o) {

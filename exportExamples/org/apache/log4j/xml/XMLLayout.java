@@ -120,7 +120,7 @@ public class XMLLayout extends Layout {
 
 
   /**
-   * Formats a {@link LoggingEvent} in conformance with the log4j.dtd.
+   * Formats a {@link org.apache.log4j.spi.LoggingEvent} in conformance with the log4j.dtd.
    * */
   public String format(final LoggingEvent event) {
 

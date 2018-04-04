@@ -60,7 +60,7 @@ public class AppenderFinalizer {
   //--------------------------------------------------------------------------
 
   /**
-   * @throws Throwable
+   * @throws java.lang.Throwable
    */
   protected void finalize() throws Throwable {
     System.out.println("Disposing of the default LogBrokerMonitor instance");

@@ -375,7 +375,7 @@ public class AsyncAppender extends AppenderSkeleton
     //      and deadlock if size was zero.
     //
     if (size < 0) {
-      throw new NegativeArraySizeException("size");
+      throw new java.lang.NegativeArraySizeException("size");
     }
 
     synchronized (buffer) {

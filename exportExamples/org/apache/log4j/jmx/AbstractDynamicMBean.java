@@ -109,7 +109,7 @@ public abstract class AbstractDynamicMBean implements DynamicMBean,
   }
 
   public
-  void postRegister(Boolean registrationDone) {
+  void postRegister(java.lang.Boolean registrationDone) {
   }
 
 

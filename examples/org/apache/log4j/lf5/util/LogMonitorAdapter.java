@@ -248,7 +248,7 @@ public class LogMonitorAdapter {
   /**
    * @return the screen width from Toolkit.getScreenSize()
    * if possible, otherwise returns 800
-   * @see Toolkit
+   * @see java.awt.Toolkit
    */
   protected static int getScreenWidth() {
     try {
@@ -261,7 +261,7 @@ public class LogMonitorAdapter {
   /**
    * @return the screen height from Toolkit.getScreenSize()
    * if possible, otherwise returns 600
-   * @see Toolkit
+   * @see java.awt.Toolkit
    */
   protected static int getScreenHeight() {
     try {

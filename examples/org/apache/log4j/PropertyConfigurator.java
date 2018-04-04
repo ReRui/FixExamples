@@ -60,7 +60,7 @@ import java.util.StringTokenizer;
    org.apache.log4j.xml.DOMConfigurator DOMConfigurator} such as
    support for {@link org.apache.log4j.spi.Filter Filters}, custom
    {@link org.apache.log4j.spi.ErrorHandler ErrorHandlers}, nested
-   appenders such as the {@link AsyncAppender
+   appenders such as the {@link org.apache.log4j.AsyncAppender
    AsyncAppender}, etc.
 
    <p>All option <em>values</em> admit variable substitution. The
@@ -99,7 +99,7 @@ public class PropertyConfigurator implements Configurator {
   static final String      RENDERER_PREFIX = "log4j.renderer.";
   static final String      THRESHOLD_PREFIX = "log4j.threshold";
 
-  /** Key for specifying the {@link LoggerFactory
+  /** Key for specifying the {@link org.apache.log4j.spi.LoggerFactory
       LoggerFactory}.  Currently set to "<code>log4j.loggerFactory</code>".  */
   public static final String LOGGER_FACTORY_KEY = "log4j.loggerFactory";
 
@@ -483,7 +483,7 @@ public class PropertyConfigurator implements Configurator {
 
   /**
      Check the provided <code>Properties</code> object for a
-     {@link LoggerFactory LoggerFactory}
+     {@link org.apache.log4j.spi.LoggerFactory LoggerFactory}
      entry specified by {@link #LOGGER_FACTORY_KEY}.  If such an entry
      exists, an attempt is made to create an instance using the default
      constructor.  This instance is used for subsequent Category creations
@@ -662,7 +662,7 @@ public class PropertyConfigurator implements Configurator {
     String layoutPrefix = prefix + ".layout";
 
     appender = (Appender) OptionConverter.instantiateByKey(props, prefix,
-					      Appender.class,
+					      org.apache.log4j.Appender.class,
 					      null);
     if(appender == null) {
       LogLog.error(

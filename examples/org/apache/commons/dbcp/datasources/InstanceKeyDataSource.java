@@ -680,7 +680,7 @@ public abstract class InstanceKeyDataSource
 
     protected ConnectionPoolDataSource 
         testCPDS(String username, String password)
-        throws NamingException, SQLException {
+        throws javax.naming.NamingException, SQLException {
         // The source of physical db connections
         ConnectionPoolDataSource cpds = this.cpds;
         if (cpds == null) {            

@@ -3,6 +3,103 @@
   <component name="ChangeListManager">
     <list default="true" id="9f4e1b6d-5c87-4e1a-a05a-150c9330506c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/DelegatingPreparedStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/DelegatingPreparedStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/DelegatingResultSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/DelegatingResultSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/PoolingDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/PoolingDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/cpdsadapter/ConnectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/cpdsadapter/ConnectionImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/cpdsadapter/DriverAdapterCPDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/cpdsadapter/DriverAdapterCPDS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/datasources/InstanceKeyDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/datasources/InstanceKeyDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/datasources/KeyedCPDSConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/datasources/KeyedCPDSConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/datasources/SharedPoolDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/datasources/SharedPoolDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/datasources/UserPassKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/commons/dbcp/datasources/UserPassKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/commons/jocl/JOCLContentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/commons/jocl/JOCLContentHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/commons/pool/ObjectPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/commons/pool/ObjectPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/commons/pool/impl/CursorableLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/commons/pool/impl/CursorableLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/commons/pool/impl/GenericObjectPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/commons/pool/impl/GenericObjectPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/AsyncAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/AsyncAppender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/FileAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/FileAppender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/Hierarchy.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/Hierarchy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/PropertyConfigurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/PropertyConfigurator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/WriterAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/WriterAppender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/config/PropertyGetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/config/PropertyGetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/helpers/AbsoluteTimeDateFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/helpers/AbsoluteTimeDateFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/helpers/DateTimeDateFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/helpers/DateTimeDateFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/helpers/ISO8601DateFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/helpers/ISO8601DateFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/helpers/OptionConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/helpers/OptionConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/helpers/RelativeTimeDateFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/helpers/RelativeTimeDateFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/jmx/AbstractDynamicMBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/jmx/AbstractDynamicMBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/jmx/HierarchyDynamicMBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/jmx/HierarchyDynamicMBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/jmx/LoggerDynamicMBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/jmx/LoggerDynamicMBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/lf5/AppenderFinalizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/lf5/AppenderFinalizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/lf5/DefaultLF5Configurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/lf5/DefaultLF5Configurator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/lf5/LF5Appender.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/lf5/LF5Appender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/lf5/util/DateFormatManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/lf5/util/DateFormatManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/lf5/util/LogMonitorAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/lf5/util/LogMonitorAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/lf5/util/ResourceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/lf5/util/ResourceUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/lf5/util/StreamUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/lf5/util/StreamUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/net/SimpleSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/net/SimpleSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/net/SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/net/SocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/or/sax/AttributesRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/or/sax/AttributesRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/spi/LoggingEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/spi/LoggingEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/spi/ThrowableInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/spi/ThrowableInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/varia/Roller.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/varia/Roller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/varia/StringMatchFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/varia/StringMatchFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/xml/DOMConfigurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/xml/DOMConfigurator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/log4j/xml/XMLLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/log4j/xml/XMLLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/DelegatingPreparedStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/DelegatingPreparedStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/DelegatingResultSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/DelegatingResultSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/PoolingDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/PoolingDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/cpdsadapter/ConnectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/cpdsadapter/ConnectionImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/cpdsadapter/DriverAdapterCPDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/cpdsadapter/DriverAdapterCPDS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/datasources/InstanceKeyDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/datasources/InstanceKeyDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/datasources/KeyedCPDSConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/datasources/KeyedCPDSConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/datasources/SharedPoolDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/datasources/SharedPoolDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/datasources/UserPassKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/commons/dbcp/datasources/UserPassKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/commons/jocl/JOCLContentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/commons/jocl/JOCLContentHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/commons/pool/ObjectPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/commons/pool/ObjectPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/commons/pool/impl/CursorableLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/commons/pool/impl/CursorableLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/commons/pool/impl/GenericObjectPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/commons/pool/impl/GenericObjectPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/AsyncAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/AsyncAppender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/FileAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/FileAppender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/Hierarchy.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/Hierarchy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/PropertyConfigurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/PropertyConfigurator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/WriterAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/WriterAppender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/config/PropertyGetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/config/PropertyGetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/helpers/AbsoluteTimeDateFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/helpers/AbsoluteTimeDateFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/helpers/DateTimeDateFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/helpers/DateTimeDateFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/helpers/ISO8601DateFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/helpers/ISO8601DateFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/helpers/OptionConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/helpers/OptionConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/helpers/RelativeTimeDateFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/helpers/RelativeTimeDateFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/jmx/AbstractDynamicMBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/jmx/AbstractDynamicMBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/jmx/HierarchyDynamicMBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/jmx/HierarchyDynamicMBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/jmx/LoggerDynamicMBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/jmx/LoggerDynamicMBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/lf5/AppenderFinalizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/lf5/AppenderFinalizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/lf5/DefaultLF5Configurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/lf5/DefaultLF5Configurator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/lf5/LF5Appender.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/lf5/LF5Appender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/lf5/util/DateFormatManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/lf5/util/DateFormatManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/lf5/util/LogMonitorAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/lf5/util/LogMonitorAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/lf5/util/ResourceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/lf5/util/ResourceUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/lf5/util/StreamUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/lf5/util/StreamUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/net/SimpleSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/net/SimpleSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/net/SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/net/SocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/or/sax/AttributesRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/or/sax/AttributesRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/LoggingEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/LoggingEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/ThrowableInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/ThrowableInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/varia/Roller.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/varia/Roller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/varia/StringMatchFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/varia/StringMatchFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/xml/DOMConfigurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/xml/DOMConfigurator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/xml/XMLLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/xml/XMLLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/producerConsumer/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/producerConsumer/ProducerConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/org.apache.log4j/修复得到的pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/org.apache.log4j/修复得到的pattern.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/org.apache.log4j/修复得到的sequence.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/org.apache.log4j/修复得到的sequence.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,13 +111,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThrowableInformation.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/ThrowableInformation.java">
+      <file leaf-file-name="ProducerConsumer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exportExamples/producerConsumer/ProducerConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="92" column="2" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
+            <state relative-caret-position="464">
+              <caret line="194" column="41" selection-start-line="194" selection-start-column="41" selection-end-line="194" selection-end-column="41" />
               <folding>
-                <element signature="e#0#2877#0" expanded="true" />
+                <element signature="e#4364#4365#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,7 +155,6 @@
         <option value="$PROJECT_DIR$/examples/account/Account.java" />
         <option value="$PROJECT_DIR$/exportExamples/account/Account.java" />
         <option value="$PROJECT_DIR$/exportExamples/hashcodetest/IntRange.java" />
-        <option value="$PROJECT_DIR$/exportExamples/producerConsumer/ProducerConsumer.java" />
         <option value="$PROJECT_DIR$/exportExamples/reorder/SetCheck.java" />
         <option value="$PROJECT_DIR$/examples/stringbuffer/StringBuffer.java" />
         <option value="$PROJECT_DIR$/examples/atmoerror/Main.java" />
@@ -104,6 +200,7 @@
         <option value="$PROJECT_DIR$/examples/wronglock2/Main.java" />
         <option value="$PROJECT_DIR$/examples/org/apache/log4j/spi/LoggingEvent.java" />
         <option value="$PROJECT_DIR$/examples/org/apache/log4j/spi/ThrowableInformation.java" />
+        <option value="$PROJECT_DIR$/exportExamples/producerConsumer/ProducerConsumer.java" />
       </list>
     </option>
   </component>
@@ -142,37 +239,64 @@
             <path>
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
-              <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patch" type="462c0819:PsiDirectoryNode" />
-              <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patch" type="462c0819:PsiDirectoryNode" />
-              <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
               <item name="apache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
-              <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
               <item name="apache" type="462c0819:PsiDirectoryNode" />
               <item name="log4j" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
-              <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
               <item name="apache" type="462c0819:PsiDirectoryNode" />
               <item name="log4j" type="462c0819:PsiDirectoryNode" />
-              <item name="spi" type="462c0819:PsiDirectoryNode" />
+              <item name="jmx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patch" type="462c0819:PsiDirectoryNode" />
+              <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patch" type="462c0819:PsiDirectoryNode" />
+              <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="producerConsumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="deploy.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="deploy.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="deploy.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -377,7 +501,7 @@
       <workItem from="1522651714726" duration="7931000" />
       <workItem from="1522674318577" duration="4175000" />
       <workItem from="1522718411983" duration="12108000" />
-      <workItem from="1522802846328" duration="7122000" />
+      <workItem from="1522802846328" duration="11208000" />
     </task>
     <servers />
   </component>
@@ -390,14 +514,23 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120844000" />
+    <option name="totallyTimeSpent" value="124930000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3281471" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
@@ -405,13 +538,14 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3281471" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.8387553" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24597855" />
       <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -423,11 +557,9 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3281471" />
@@ -436,19 +568,20 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24597855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Designer" order="3" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.8387553" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3281471" />
@@ -467,37 +600,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/datarace/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/datarace/ThreadRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/rand/Rand.java" />
-    <entry file="file://$PROJECT_DIR$/examples/allocationvector/AllocationVector.java" />
-    <entry file="file://$PROJECT_DIR$/examples/pack_test/CheckField.java" />
-    <entry file="file://$PROJECT_DIR$/examples/checkfield/InstanceExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/accountsubtype/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-604">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/accountsubtype/BusinessAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -816,29 +918,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/LoggingEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="367" column="27" selection-start-line="367" selection-start-column="12" selection-end-line="367" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#18427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/ThrowableInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="69" column="33" lean-forward="true" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/org/apache/log4j/TestThrowableStrRep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/org.apache.log4j/修复得到的sequence.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/org.apache.log4j/修复得到的pattern.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/org/apache/log4j/TestThrowableStrRep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="-798">
           <caret line="9" column="31" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/org.apache.log4j/修复方法及结果.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/additionalJAR/jdmkrt.jar!/com/sun/jdmk/comm/HtmlAdaptorServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/log4j/jmx/Agent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/org/apache/log4j/spi/ThrowableInformation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="75" column="36" lean-forward="true" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
+        <state relative-caret-position="969">
+          <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/org/apache/log4j/TestThrowableStrRep.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/ThrowableInformation.java">
+    <entry file="file://$PROJECT_DIR$/exportExamples/producerConsumer/ProducerConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="92" column="2" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
+        <state relative-caret-position="464">
+          <caret line="194" column="41" selection-start-line="194" selection-start-column="41" selection-end-line="194" selection-end-column="41" />
           <folding>
-            <element signature="e#0#2877#0" expanded="true" />
+            <element signature="e#4364#4365#0" expanded="true" />
           </folding>
         </state>
       </provider>

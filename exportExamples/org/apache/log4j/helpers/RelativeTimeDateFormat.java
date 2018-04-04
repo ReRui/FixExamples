@@ -59,7 +59,7 @@ public class RelativeTimeDateFormat extends DateFormat {
      This method does not do anything but return <code>null</code>.
    */
   public
-  Date parse(String s, ParsePosition pos) {
+  Date parse(java.lang.String s, ParsePosition pos) {
     return null;
   }  
 }

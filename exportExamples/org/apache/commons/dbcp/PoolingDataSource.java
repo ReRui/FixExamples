@@ -89,7 +89,7 @@ public class PoolingDataSource implements DataSource {
     //--- DataSource methods -----------------------------------------
 
     /**
-     * Return a {@link Connection} from my pool,
+     * Return a {@link java.sql.Connection} from my pool,
      * according to the contract specified by {@link ObjectPool#borrowObject}.
      */
     public Connection getConnection() throws SQLException {

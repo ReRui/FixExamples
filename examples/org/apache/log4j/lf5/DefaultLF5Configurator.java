@@ -72,7 +72,7 @@ public class DefaultLF5Configurator implements Configurator {
    * This method configures the <code>LF5Appender</code> using a
    * default configuration file. The default configuration file is
    * <bold>defaultconfig.properties</bold>.
-   * @throws IOException
+   * @throws java.io.IOException
    */
   public static void configure() throws IOException {
     String resource =

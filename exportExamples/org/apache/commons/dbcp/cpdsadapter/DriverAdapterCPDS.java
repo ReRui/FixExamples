@@ -41,8 +41,8 @@ import org.apache.commons.pool.impl.GenericKeyedObjectPool;
 /**
  * <p>
  * An adapter for jdbc drivers that do not include an implementation
- * of {@link ConnectionPoolDataSource}, but still include a
- * {@link DriverManager} implementation.
+ * of {@link javax.sql.ConnectionPoolDataSource}, but still include a 
+ * {@link java.sql.DriverManager} implementation.  
  * <code>ConnectionPoolDataSource</code>s are not used within general 
  * applications.  They are used by <code>DataSource</code> implementations
  * that pool <code>Connection</code>s, such as 
@@ -417,7 +417,7 @@ public class DriverAdapterCPDS
     /**
      * Set the log writer for this data source. NOT USED.
      */
-    public void setLogWriter(PrintWriter out) {
+    public void setLogWriter(java.io.PrintWriter out) {
         logWriter = out;
     } 
 

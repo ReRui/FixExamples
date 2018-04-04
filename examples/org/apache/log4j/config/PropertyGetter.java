@@ -40,7 +40,7 @@ public class PropertyGetter {
   /**
     Create a new PropertyGetter for the specified Object. This is done
     in prepartion for invoking {@link
-    #getProperties(PropertyCallback, String)} one or
+    #getProperties(PropertyGetter.PropertyCallback, String)} one or
     more times.
 
     @param obj the object for which to set properties */

@@ -23,7 +23,7 @@ import java.net.URL;
  * ResourceUtils.  Provide a set of convenience methods for working with
  * Resources.
  *
- * @see Resource
+ * @see org.apache.log4j.lf5.util.Resource
  *
  * @author Michael J. Sikorsky
  * @author Robert Shaw

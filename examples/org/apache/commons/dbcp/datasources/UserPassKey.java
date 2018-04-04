@@ -50,7 +50,7 @@ class UserPassKey implements Serializable {
     /**
      * @return <code>true</code> if the username and password fields for both 
      * objects are equal.
-     * @see Object#equals(Object)
+     * @see java.lang.Object#equals(java.lang.Object)
      */
     public boolean equals(Object obj) {
         if (obj == null) {

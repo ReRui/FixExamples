@@ -163,7 +163,7 @@ public class FileAppender extends WriterAppender {
       try {
 	setFile(fileName, fileAppend, bufferedIO, bufferSize);
       }
-      catch(IOException e) {
+      catch(java.io.IOException e) {
 	errorHandler.error("setFile("+fileName+","+fileAppend+") call failed.",
 			   e, ErrorCode.FILE_OPEN_FAILURE);
       }
@@ -183,7 +183,7 @@ public class FileAppender extends WriterAppender {
       try {
 	this.qw.close();
       }
-      catch(IOException e) {
+      catch(java.io.IOException e) {
 	// Exceptionally, it does not make sense to delegate to an
 	// ErrorHandler. Since a closed appender is basically dead.
 	LogLog.error("Could not close " + qw, e);
@@ -232,7 +232,7 @@ public class FileAppender extends WriterAppender {
   /**
      The <b>BufferedIO</b> option takes a boolean value. It is set to
      <code>false</code> by default. If true, then <code>File</code>
-     will be opened and the resulting {@link Writer} wrapped
+     will be opened and the resulting {@link java.io.Writer} wrapped
      around a {@link BufferedWriter}.
 
      BufferedIO will significatnly increase performance on heavily
