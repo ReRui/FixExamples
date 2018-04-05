@@ -12,7 +12,7 @@ public class Checker implements Runnable {
 	
 	public void run() {
 		if (!ci.check(1, 50 * Main.THREAD_NUMBER)) {
-synchronized (this){ 			buggy = true;
-}		}
+			buggy = true;
+		}
 	}
 }

@@ -11,7 +11,6 @@ public class ProducerConsumer {
     public static int CONS = 4;
     public static int COUNT = 8;
     public static int total = 0;
-    static ProducerConsumer o = new ProducerConsumer();
 
     public static void main(String[] args) throws Exception {
         if (args != null && args.length == 3) {
@@ -32,8 +31,7 @@ public class ProducerConsumer {
 
         for (int i = 0; i < CONS; i++)
             cons[i].join();
-
-        synchronized (o) {
+        synchronized (b) {
             if (total != COUNT * PRODS)
                 throw new RuntimeException("bug found - total is " + total + " and should be " + COUNT * PRODS);
         }
@@ -86,34 +84,34 @@ class Buffer implements BufferInterface {
     }
 
     public synchronized Object get() {
-        while ((usedSlots == 0) & !halted) {
-            try {
-                //System.out.println("consumer wait");
-                wait();
-            } catch (InterruptedException ex) {
+            while ((usedSlots == 0) & !halted) {
+                try {
+                    //System.out.println("consumer wait");
+                    wait();
+                } catch (InterruptedException ex) {
+                }
             }
-        }
 
-        if (usedSlots == 0) {
-            //System.out.println("consumer gets halt exception");
+            if (usedSlots == 0) {
+                //System.out.println("consumer gets halt exception");
 
-            //HaltException he = new HaltException();
-            //throw (he);
-            return null;
-        }
+                //HaltException he = new HaltException();
+                //throw (he);
+                return null;
+            }
 
-        Object x = array[getPtr];
-        //System.out.println("get at " + getPtr);
-        array[getPtr] = null;
-        getPtr = (getPtr + 1) % SIZE;
+            Object x = array[getPtr];
+            //System.out.println("get at " + getPtr);
+            array[getPtr] = null;
+            getPtr = (getPtr + 1) % SIZE;
 
-        if (usedSlots == SIZE) {
-            notifyAll();
-        }
+            if (usedSlots == SIZE) {
+                notifyAll();
+            }
 
-        usedSlots--;
+            usedSlots--;
 
-        return x;
+            return x;
     }
 
     public synchronized void halt() {
@@ -193,6 +191,8 @@ class Consumer extends Thread {
     }
 
     public synchronized void inc(int x) {
-        ProducerConsumer.total = ProducerConsumer.total + x;
+        synchronized (buffer) {
+            ProducerConsumer.total = ProducerConsumer.total + x;
+        }
     }
 }

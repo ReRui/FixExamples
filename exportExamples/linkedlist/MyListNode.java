@@ -24,7 +24,3 @@ package linkedlist;
         }
 
     }
-synchronized (){ 
-}
-synchronized (){ 
-}
