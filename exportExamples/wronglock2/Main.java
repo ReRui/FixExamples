@@ -5,7 +5,6 @@ public class Main implements Runnable {
     public static Struct s = new Struct(1, 0);
 
     public static int THREADS = 5;
-    static Object o = new Object();
 
     public static void main(String[] args) throws Exception {
         Thread[] t = new Thread[THREADS];
@@ -22,6 +21,7 @@ public class Main implements Runnable {
         }
     }
 
+    static Object o = new Object();
     @Override
     public void run() {
         synchronized (o) {
