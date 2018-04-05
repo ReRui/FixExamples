@@ -1,5 +1,4 @@
-修复一
-添加同步
-锁的名字this
-加锁位置26->27
-结果: 修复失败
+修复三
+对ReadWriteNode[292,wronglock2.Main$Struct@170,number,WRITE,Thread-1,wronglock2/Main.java:33]加锁起止位置26->26
+对ReadWriteNode[370,wronglock2.Main$Struct@170,number,READ,Thread-3,wronglock2/Main.java:37]加锁起止位置26->26
+结果: 修复成功

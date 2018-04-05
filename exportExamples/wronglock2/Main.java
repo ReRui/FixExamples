@@ -1,49 +1,44 @@
 package wronglock2;
 
 public class Main implements Runnable {
+static Object objectFix = new Object();
+	public static Struct s = new Struct(1, 0);
 
-    public static Struct s = new Struct(1, 0);
+	public static int THREADS = 5;
 
-    public static int THREADS = 5;
+	public static void main(String[] args) throws Exception {
+		Thread[] t = new Thread[THREADS];
+		for (int i = 0; i < THREADS; i++) {
+			t[i] = new Thread(new Main());
+			t[i].start();
+		}
+		for (int i = 0; i < THREADS; i++) {
+			t[i].join();
+		}
 
-    public static void main(String[] args) throws Exception {
-        Thread[] t = new Thread[THREADS];
-        for (int i = 0; i < THREADS; i++) {
-            t[i] = new Thread(new Main());
-            t[i].start();
-        }
-        for (int i = 0; i < THREADS; i++) {
-            t[i].join();
-        }
+		if (s.getCount() != THREADS) {
+			throw new Exception("bug found.");
+		}
+	}
 
-        if (s.getCount() != THREADS) {
-            throw new Exception("bug found.");
-        }
-    }
+	@Override
+	public void run() {
+synchronized (objectFix){  		s = new Struct(s.getNumber() * 2, s.getCount() + 1);
+}	}
 
-    static Object o = new Object();
-    @Override
-    public void run() {
-        synchronized (o) {
-            s = new Struct(s.getNumber() * 2, s.getCount() + 1);
-        }
-    }
+	public static class Struct {
+static Object objectFix = new Object();		int number;
+		int count;
+		public Struct(int number, int count) {
+			this.number = number;
+			this.count = count;
+		}
+		public int getNumber() {
+synchronized (objectFix){ 			return number;
+}		}
 
-    public static class Struct {
-        int number;
-        int count;
-
-        public Struct(int number, int count) {
-            this.number = number;
-            this.count = count;
-        }
-
-        public int getNumber() {
-            return number;
-        }
-
-        public int getCount() {
-            return count;
-        }
-    }
+		public int getCount() {
+			return count;
+		}
+	}
 }
