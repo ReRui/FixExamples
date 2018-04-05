@@ -9,8 +9,10 @@ public class CheckField {
 			public void run() {
 				System.out.println("new thread." + ex.number);
 synchronized (ex){ 				ex.number = 12;
-}				ex.num2 = 12;
-synchronized (ex){ 				assert ex.number == 12;
+				ex.num2 = 12;
+//				assert ex.number == 12;//这一行被修改了
+				if (ex.number != 12)
+					throw new RuntimeException("not equal");
 }				int c = ex.num2;
 				//c -= ex.number;
 			}

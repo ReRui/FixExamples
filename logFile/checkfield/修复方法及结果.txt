@@ -1,7 +1,7 @@
 修复二
 锁的名字ex
 锁的名字ex
-对ReadWriteNode[319,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]加锁起止位置13->13
+对ReadWriteNode[316,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]加锁起止位置11->15
 锁的名字ex
-对ReadWriteNode[328,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:22]加锁起止位置22->22
-结果: 修复失败
+对ReadWriteNode[330,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]加锁起止位置24->24
+结果: 修复成功
