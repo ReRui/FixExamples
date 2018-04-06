@@ -2,7 +2,7 @@ Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[244,alarmclock.Monitor@15e,now,WRITE,main,alarmclock/AlarmClock.java:125]
-	ReadWriteNode[840,alarmclock.Monitor@15e,now,READ,Thread-1,alarmclock/AlarmClock.java:205]
+	ReadWriteNode[1007,alarmclock.Monitor@15e,now,READ,Thread-1,alarmclock/AlarmClock.java:205]
 }
 success count: 0
-fail count: 15
+fail count: 13

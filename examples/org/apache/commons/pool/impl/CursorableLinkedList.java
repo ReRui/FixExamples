@@ -965,7 +965,7 @@ class CursorableLinkedList implements List, Serializable {
         private Listable _prev = null;
         private Listable _next = null;
         private Object _val = null;
-        static Object o = new Object();
+
         Listable(Listable prev, Listable next, Object val) {
             _prev = prev;
             _next = next;
@@ -973,7 +973,7 @@ class CursorableLinkedList implements List, Serializable {
         }
 
         Listable next() {
-            synchronized (o) {return _next;}
+            return _next;
         }
 
         Listable prev() {
@@ -985,7 +985,7 @@ class CursorableLinkedList implements List, Serializable {
         }
 
         void setNext(Listable next) {
-            synchronized (o){_next = next;}
+            _next = next;
         }
 
         void setPrev(Listable prev) {

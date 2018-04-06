@@ -308,15 +308,14 @@ class MyLinkedList {
     MyObject createLock(int n) {
         MyObject temp;
         int key;
-        synchronized (this) {
-            for (int i = 0; i < size; i++) {
-                key = ((MyObject) list[i]).time;
 
-                if (n == key) {
-                    temp = (MyObject) list[i];
+        for (int i = 0; i < size; i++) {
+            key = ((MyObject) list[i]).time;
 
-                    return temp;
-                }
+            if (n == key) {
+                temp = (MyObject) list[i];
+
+                return temp;
             }
         }
 
@@ -340,6 +339,7 @@ class MyLinkedList {
     MyObject getLock(int n) {
         MyObject temp;
         int m;
+
         synchronized (this) {
             for (int i = 0; i < size; i++) {
                 m = ((MyObject) list[i]).time;

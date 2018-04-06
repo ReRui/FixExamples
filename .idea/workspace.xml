@@ -3,9 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="9f4e1b6d-5c87-4e1a-a05a-150c9330506c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/wronglock2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/wronglock2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org/apache/commons/pool/impl/CursorableLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/commons/pool/impl/CursorableLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/bubblesort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/BubbleSortImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/bubblesort/BubbleSortImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/OneBubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/bubblesort/OneBubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/Reporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/bubblesort/Reporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generateClass/alarmclock/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/generateClass/alarmclock/MyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/alarmclock/verify pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/alarmclock/verify pattern.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/alarmclock/修复得到的pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/alarmclock/修复得到的pattern.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/alarmclock/修复得到的sequence.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/alarmclock/修复得到的sequence.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/linkedlist/verify pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/linkedlist/verify pattern.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logFile/linkedlist/修复得到的pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/linkedlist/修复得到的pattern.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logFile/linkedlist/修复得到的sequence.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/linkedlist/修复得到的sequence.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/linkedlist/修复方法及结果.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/linkedlist/修复方法及结果.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/org/apache/commons/pool/impl/CursorableLinkedList$Listable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patch/org/apache/commons/pool/impl/CursorableLinkedList$Listable.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +44,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AlarmClock.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/alarmclock/AlarmClock.java">
+      <file leaf-file-name="修复方法及结果.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logFile/linkedlist/修复方法及结果.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+            <state relative-caret-position="76">
+              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -50,6 +72,7 @@
       <find>MyListNode</find>
       <find>buffer</find>
       <find>total</find>
+      <find>synchronized</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,9 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/exportExamples/reorder/SetCheck.java" />
-        <option value="$PROJECT_DIR$/examples/stringbuffer/StringBuffer.java" />
-        <option value="$PROJECT_DIR$/examples/atmoerror/Main.java" />
         <option value="$PROJECT_DIR$/logFile/account/修复方法及结果.txt" />
         <option value="$PROJECT_DIR$/examples/airlinetickets/Airlinetickets.java" />
         <option value="$PROJECT_DIR$/examples/bubblesort/Reporter.java" />
@@ -92,7 +112,6 @@
         <option value="$PROJECT_DIR$/exportExamples/even/EvenGenerator.java" />
         <option value="$PROJECT_DIR$/exportExamples/mergesort/MSort.java" />
         <option value="$PROJECT_DIR$/examples/atmoerror/BankAccount.java" />
-        <option value="$PROJECT_DIR$/examples/atmoerror/Customer.java" />
         <option value="$PROJECT_DIR$/examples/datarace/Account.java" />
         <option value="$PROJECT_DIR$/examples/datarace/Main.java" />
         <option value="$PROJECT_DIR$/examples/datarace/CustomerInfo.java" />
@@ -101,7 +120,6 @@
         <option value="$PROJECT_DIR$/examples/mergesort/MSort.java" />
         <option value="$PROJECT_DIR$/examples/rand/Rand.java" />
         <option value="$PROJECT_DIR$/examples/allocationvector/AllocationVector.java" />
-        <option value="$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java" />
         <option value="$PROJECT_DIR$/examples/org/apache/commons/dbcp/datasources/KeyedCPDSConnectionFactory.java" />
         <option value="$PROJECT_DIR$/examples/org/apache/log4j/spi/LoggingEvent.java" />
         <option value="$PROJECT_DIR$/examples/org/apache/log4j/spi/ThrowableInformation.java" />
@@ -109,11 +127,9 @@
         <option value="$PROJECT_DIR$/examples/producerConsumer/ProducerConsumer.java" />
         <option value="$PROJECT_DIR$/examples/org/apache/commons/pool/impl/TestGenericObjectPool.java" />
         <option value="$PROJECT_DIR$/examples/org/apache/commons/pool/impl/GenericObjectPool.java" />
-        <option value="$PROJECT_DIR$/examples/linkedlist/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/exportExamples/atmoerror/BankAccount.java" />
         <option value="$PROJECT_DIR$/exportExamples/atmoerror/Customer.java" />
         <option value="$PROJECT_DIR$/exportExamples/atmoerror/Main.java" />
-        <option value="$PROJECT_DIR$/examples/org/apache/commons/pool/impl/CursorableLinkedList.java" />
         <option value="$PROJECT_DIR$/exportExamples/wronglock2/Main.java" />
         <option value="$PROJECT_DIR$/exportExamples/producerConsumer/ProducerConsumer.java" />
         <option value="$PROJECT_DIR$/examples/wronglock2/Main.java" />
@@ -121,6 +137,13 @@
         <option value="$PROJECT_DIR$/examples/consisitency/Main.java" />
         <option value="$PROJECT_DIR$/examples/checkfield/CheckField.java" />
         <option value="$PROJECT_DIR$/exportExamples/checkfield/CheckField.java" />
+        <option value="$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java" />
+        <option value="$PROJECT_DIR$/examples/atmoerror/Customer.java" />
+        <option value="$PROJECT_DIR$/examples/org/apache/commons/pool/impl/CursorableLinkedList.java" />
+        <option value="$PROJECT_DIR$/examples/bubblesort/OneBubble.java" />
+        <option value="$PROJECT_DIR$/exportExamples/bubblesort/OneBubble.java" />
+        <option value="$PROJECT_DIR$/examples/linkedlist/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java" />
       </list>
     </option>
   </component>
@@ -166,19 +189,6 @@
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="alarmclock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patch" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="alarmclock" type="462c0819:PsiDirectoryNode" />
-              <item name="AlarmClock.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patch" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
               <item name="wronglock2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -189,13 +199,19 @@
             <path>
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
+              <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patch" type="462c0819:PsiDirectoryNode" />
               <item name="logFile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
               <item name="logFile" type="462c0819:PsiDirectoryNode" />
-              <item name="checkfield" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
@@ -248,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AlarmClock">
+  <component name="RunManager" selected="Application.BugTester">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -263,13 +279,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CheckField" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="checkfield.CheckField" />
+    <configuration name="BugTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.BugTester" />
       <module name="Patch" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="checkfield.*" />
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,13 +301,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="consisitency.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="atmoerror.Main" />
       <module name="Patch" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="consisitency.*" />
+          <option name="PATTERN" value="atmoerror.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,19 +378,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.TestGenericObjectPool" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.CheckField" />
       <item itemvalue="Application.AlarmClock" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.TestGenericObjectPool" />
+      <item itemvalue="Application.BugTester" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BugTester" />
+        <item itemvalue="Application.TestGenericObjectPool" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.AlarmClock" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.CheckField" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TestGenericObjectPool" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +426,7 @@
       <workItem from="1522892636419" duration="1045000" />
       <workItem from="1522898866794" duration="21927000" />
       <workItem from="1522939803157" duration="44000" />
-      <workItem from="1522979627411" duration="2081000" />
+      <workItem from="1522979627411" duration="11473000" />
     </task>
     <servers />
   </component>
@@ -423,7 +439,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157226000" />
+    <option name="totallyTimeSpent" value="166618000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,6 +456,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3281471" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -451,7 +468,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49798927" weight="0.8387553" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25871313" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2580429" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -462,7 +479,6 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3281471" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -471,28 +487,28 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25268096" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4596888" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2580429" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4596888" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49798927" weight="0.8387553" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5020107" side_tool="true" weight="0.8387553" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3281471" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3297587" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -514,99 +530,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/jocl/ConstructorUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/pool/PoolableObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="81" column="31" lean-forward="true" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/org/apache/commons/pool/impl/TestGenericObjectPool.java" />
-    <entry file="file://$PROJECT_DIR$/exportExamples/org/apache/commons/pool/impl/CursorableLinkedList.java" />
-    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/pool/impl/GenericObjectPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="763" column="16" lean-forward="true" selection-start-line="763" selection-start-column="16" selection-end-line="763" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/org/apache/log4j/TestThrowableStrRep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/atmoerror/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/atmoerror/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/atmoerror/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/atmoerror/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/atmoerror/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/atmoerror/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/datarace/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/datarace/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/datarace/CustomerInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/twoStage/TwoStage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
@@ -625,20 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/pool/impl/TestGenericObjectPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627">
-          <caret line="82" column="20" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/pool/impl/CursorableLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="987" column="43" selection-start-line="987" selection-start-column="43" selection-end-line="987" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -775,36 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/linkedlist/BugTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/linkedlist/BugTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/linkedlist/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-          <folding>
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/linkedlist/MyLinkedListItr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -842,8 +721,185 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/alarmclock/AlarmClock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        <state relative-caret-position="800">
+          <caret line="204" column="14" selection-start-line="204" selection-start-column="8" selection-end-line="204" selection-end-column="14" />
+          <folding>
+            <element signature="e#5940#5941#0" expanded="true" />
+            <element signature="e#5966#5967#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4693">
+          <caret line="352" column="9" selection-start-line="352" selection-start-column="9" selection-end-line="352" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/atmoerror/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="744" selection-start-line="744" selection-end-line="744" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/atmoerror/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/atmoerror/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/datarace/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/datarace/CustomerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/datarace/ThreadRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/mergesort/MSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/pool/impl/CursorableLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="987" column="25" lean-forward="true" selection-start-line="987" selection-start-column="25" selection-end-line="987" selection-end-column="25" />
+          <folding>
+            <element signature="e#34330#34331#0" expanded="true" />
+            <element signature="e#34366#34367#0" expanded="true" />
+            <element signature="e#34529#34530#0" expanded="true" />
+            <element signature="e#34565#34566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/pool/impl/GenericObjectPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3531">
+          <caret line="769" selection-start-line="769" selection-end-line="769" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/pool/impl/TestGenericObjectPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generateClass/bubblesort/BubbleSort.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1060">
+          <folding>
+            <element signature="e#0#2541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generateClass/bubblesort/OneBubble.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/bubblesort/OneBubble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/bubblesort/OneBubble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="57" column="40" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/bubblesort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/linkedlist/BugTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/linkedlist/BugTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/linkedlist/MyListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/linkedlist/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/linkedlist/修复方法及结果.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
         </state>
       </provider>
     </entry>
