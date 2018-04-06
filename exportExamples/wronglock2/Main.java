@@ -1,7 +1,7 @@
 package wronglock2;
 
 public class Main implements Runnable {
-static Object objectFix = new Object();
+
 	public static Struct s = new Struct(1, 0);
 
 	public static int THREADS = 5;
@@ -23,19 +23,19 @@ static Object objectFix = new Object();
 
 	@Override
 	public void run() {
-synchronized (objectFix){  		s = new Struct(s.getNumber() * 2, s.getCount() + 1);
-}	}
+		s = new Struct(s.getNumber() * 2, s.getCount() + 1);
+	}
 
 	public static class Struct {
-static Object objectFix = new Object();		int number;
+		int number;
 		int count;
 		public Struct(int number, int count) {
 			this.number = number;
 			this.count = count;
 		}
 		public int getNumber() {
-synchronized (objectFix){ 			return number;
-}		}
+			return number;
+		}
 
 		public int getCount() {
 			return count;
