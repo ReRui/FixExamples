@@ -3,22 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="9f4e1b6d-5c87-4e1a-a05a-150c9330506c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/org/apache/commons/pool/impl/CursorableLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org/apache/commons/pool/impl/CursorableLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/bubblesort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/BubbleSortImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/bubblesort/BubbleSortImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/OneBubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/bubblesort/OneBubble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/Reporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/bubblesort/Reporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/alarmclock/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/generateClass/alarmclock/MyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/alarmclock/verify pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/alarmclock/verify pattern.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/alarmclock/修复得到的pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/alarmclock/修复得到的pattern.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/alarmclock/修复得到的sequence.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/alarmclock/修复得到的sequence.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/ThrowableInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/ThrowableInformation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logFile/linkedlist/verify pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/linkedlist/verify pattern.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logFile/linkedlist/修复得到的pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/linkedlist/修复得到的pattern.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logFile/linkedlist/修复得到的sequence.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/linkedlist/修复得到的sequence.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logFile/linkedlist/修复方法及结果.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/linkedlist/修复方法及结果.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Patch/org/apache/commons/pool/impl/CursorableLinkedList$Listable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patch/org/apache/commons/pool/impl/CursorableLinkedList$Listable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/org.apache.log4j/修复得到的pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/org.apache.log4j/修复得到的pattern.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/org.apache.log4j/修复得到的sequence.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/org.apache.log4j/修复得到的sequence.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,26 +36,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="修复方法及结果.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logFile/linkedlist/修复方法及结果.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -73,6 +47,7 @@
       <find>buffer</find>
       <find>total</find>
       <find>synchronized</find>
+      <find>getTime</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -122,7 +97,6 @@
         <option value="$PROJECT_DIR$/examples/allocationvector/AllocationVector.java" />
         <option value="$PROJECT_DIR$/examples/org/apache/commons/dbcp/datasources/KeyedCPDSConnectionFactory.java" />
         <option value="$PROJECT_DIR$/examples/org/apache/log4j/spi/LoggingEvent.java" />
-        <option value="$PROJECT_DIR$/examples/org/apache/log4j/spi/ThrowableInformation.java" />
         <option value="$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/ThrowableInformation.java" />
         <option value="$PROJECT_DIR$/examples/producerConsumer/ProducerConsumer.java" />
         <option value="$PROJECT_DIR$/examples/org/apache/commons/pool/impl/TestGenericObjectPool.java" />
@@ -144,6 +118,7 @@
         <option value="$PROJECT_DIR$/exportExamples/bubblesort/OneBubble.java" />
         <option value="$PROJECT_DIR$/examples/linkedlist/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/examples/org/apache/log4j/spi/ThrowableInformation.java" />
       </list>
     </option>
   </component>
@@ -159,7 +134,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -173,6 +148,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,7 +166,14 @@
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="wronglock2" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patch" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="log4j" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
@@ -199,33 +183,19 @@
             <path>
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
-              <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patch" type="462c0819:PsiDirectoryNode" />
               <item name="logFile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
               <item name="logFile" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patch" type="462c0819:PsiDirectoryNode" />
-              <item name="logFile" type="462c0819:PsiDirectoryNode" />
-              <item name="wronglock2" type="462c0819:PsiDirectoryNode" />
+              <item name="org.apache.log4j" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,17 +234,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BugTester">
+  <component name="RunManager" selected="Application.Airlinetickets">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="AlarmClock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alarmclock.AlarmClock" />
+    <configuration name="Airlinetickets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="airlinetickets.Airlinetickets" />
       <module name="Patch" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alarmclock.*" />
+          <option name="PATTERN" value="airlinetickets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,24 +260,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wronglock2.Main" />
+    <configuration name="Simulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newSim.Simulator" />
       <module name="Patch" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wronglock2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="atmoerror.Main" />
-      <module name="Patch" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="atmoerror.*" />
+          <option name="PATTERN" value="newSim.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,6 +292,29 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="testUtils in Patch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Patch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testUtils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="testUtils" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -378,19 +360,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.AlarmClock" />
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.TestGenericObjectPool" />
       <item itemvalue="Application.BugTester" />
+      <item itemvalue="JUnit.testUtils in Patch" />
+      <item itemvalue="Application.Simulator" />
+      <item itemvalue="Application.Airlinetickets" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Airlinetickets" />
+        <item itemvalue="Application.Simulator" />
+        <item itemvalue="JUnit.testUtils in Patch" />
         <item itemvalue="Application.BugTester" />
         <item itemvalue="Application.TestGenericObjectPool" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.AlarmClock" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +408,10 @@
       <workItem from="1522892636419" duration="1045000" />
       <workItem from="1522898866794" duration="21927000" />
       <workItem from="1522939803157" duration="44000" />
-      <workItem from="1522979627411" duration="11473000" />
+      <workItem from="1522979627411" duration="15097000" />
+      <workItem from="1523018988352" duration="740000" />
+      <workItem from="1523073766544" duration="1522000" />
+      <workItem from="1523084797003" duration="1678000" />
     </task>
     <servers />
   </component>
@@ -437,9 +422,12 @@
     <history-entry file="atmoerror_in_Patch - 2018.04.02 at 14h 18m 36s.xml">
       <configuration name="atmoerror in Patch" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="testUtils_in_Patch - 2018.04.06 at 14h 47m 55s.xml">
+      <configuration name="testUtils in Patch" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166618000" />
+    <option name="totallyTimeSpent" value="174182000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,8 +439,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
@@ -463,34 +450,35 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5020107" side_tool="true" weight="0.8387553" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4596888" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49798927" weight="0.8387553" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2580429" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26876676" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4596888" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4596888" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2580429" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26876676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
@@ -499,17 +487,16 @@
       <window_info id="Designer" order="3" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49798927" weight="0.8387553" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5020107" side_tool="true" weight="0.8387553" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3281471" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3281471" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3297587" />
       <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
@@ -530,326 +517,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/twoStage/TwoStage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/twoStage/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/twoStage/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/producerConsumer/ProducerConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/even/EvenChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/even/EvenGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/even/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/consisitency/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/consisitency/修复方法及结果.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/wrongLock/WrongLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/consisitency/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/accountsubtype/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/accountsubtype/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/accountsubtype/BusinessAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/accountsubtype/PersonalAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/checkfield/CheckField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/producerConsumer/ProducerConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="34" column="98" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/checkfield/CheckField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/checkfield/CheckField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/checkfield/修复方法及结果.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/wronglock2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/wronglock2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/linkedlist/MyLinkedListItr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/linkedlist/MyListBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/linkedlist/MyListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/accountsubtype/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/accountsubtype/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/alarmclock/AlarmClock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="204" column="14" selection-start-line="204" selection-start-column="8" selection-end-line="204" selection-end-column="14" />
-          <folding>
-            <element signature="e#5940#5941#0" expanded="true" />
-            <element signature="e#5966#5967#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4693">
-          <caret line="352" column="9" selection-start-line="352" selection-start-column="9" selection-end-line="352" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/atmoerror/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="744" selection-start-line="744" selection-end-line="744" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/atmoerror/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/atmoerror/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/datarace/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/datarace/CustomerInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/datarace/ThreadRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/mergesort/MSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-251">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/pool/impl/CursorableLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="987" column="25" lean-forward="true" selection-start-line="987" selection-start-column="25" selection-end-line="987" selection-end-column="25" />
-          <folding>
-            <element signature="e#34330#34331#0" expanded="true" />
-            <element signature="e#34366#34367#0" expanded="true" />
-            <element signature="e#34529#34530#0" expanded="true" />
-            <element signature="e#34565#34566#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/pool/impl/GenericObjectPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3531">
-          <caret line="769" selection-start-line="769" selection-end-line="769" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/pool/impl/TestGenericObjectPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generateClass/bubblesort/BubbleSort.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1060">
-          <folding>
-            <element signature="e#0#2541#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generateClass/bubblesort/OneBubble.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/bubblesort/OneBubble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/bubblesort/OneBubble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="57" column="40" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/bubblesort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -864,13 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/linkedlist/BugTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exportExamples/linkedlist/MyListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -882,10 +542,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-323">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/datarace/ThreadRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="203" column="12" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/alarmclock/AlarmClock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="70" column="30" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/store/StoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/testUtils/ActivatableImpl.java" />
+    <entry file="file://$PROJECT_DIR$/examples/testUtils/ActivatableImpl_Stub.java" />
+    <entry file="file://$PROJECT_DIR$/examples/testUtils/ActivationLibrary.java" />
+    <entry file="file://$PROJECT_DIR$/examples/testUtils/JavaVM.java" />
+    <entry file="file://$PROJECT_DIR$/examples/testUtils/MyRMI.java" />
+    <entry file="file://$PROJECT_DIR$/examples/testUtils/RMID.java" />
+    <entry file="file://$PROJECT_DIR$/examples/testUtils/StreamPipe.java" />
+    <entry file="file://$PROJECT_DIR$/examples/testUtils/TestFailedException.java" />
+    <entry file="file://$PROJECT_DIR$/examples/testUtils/TestLibrary.java" />
+    <entry file="file://$PROJECT_DIR$/examples/testUtils/TestParams.java" />
+    <entry file="file://$PROJECT_DIR$/examples/newSim/Building.java" />
+    <entry file="file://$PROJECT_DIR$/examples/newSim/Elevator.java" />
+    <entry file="file://$PROJECT_DIR$/examples/newSim/DoorClosedException.java" />
+    <entry file="file://$PROJECT_DIR$/examples/newSim/ElevatorFullException.java" />
+    <entry file="file://$PROJECT_DIR$/examples/newSim/Floor.java" />
+    <entry file="file://$PROJECT_DIR$/examples/newSim/Logger.java" />
+    <entry file="file://$PROJECT_DIR$/examples/newSim/Person.java" />
+    <entry file="file://$PROJECT_DIR$/examples/newSim/Simulator.java" />
+    <entry file="file://$PROJECT_DIR$/examples/allocationvector/AllocationVector.java" />
+    <entry file="file://$PROJECT_DIR$/examples/allocationvector/TestThread.java" />
+    <entry file="file://$PROJECT_DIR$/examples/allocationvector/TestCase.java" />
+    <entry file="file://$PROJECT_DIR$/examples/airlinetickets/Airlinetickets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/accountsubtype/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/accountsubtype/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -896,10 +629,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/examples/linkedlist/BugTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="133">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/pool/impl/TestGenericObjectPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/org.apache.log4j/修复方法及结果.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/org.apache.log4j/修复得到的sequence.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/linkedlist/修复得到的pattern.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/org/apache/log4j/TestThrowableStrRep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-733" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/log4j/spi/ThrowableInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/org.apache.log4j/修复得到的pattern.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/log4j/TestThrowableStrRep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/ThrowableInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="70" column="21" lean-forward="true" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/log4j/chainsaw/ControlPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2443">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/log4j/chainsaw/DetailPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2006">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/log4j/chainsaw/EventDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1189">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/log4j/chainsaw/ExitAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/log4j/chainsaw/LoadXMLAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1360">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/log4j/chainsaw/LoggingReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1094">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/log4j/chainsaw/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2253">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
         </state>
       </provider>
     </entry>

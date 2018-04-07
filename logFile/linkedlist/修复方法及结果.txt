@@ -1,5 +1,5 @@
 修复二
 锁的名字_current
 锁的名字_current
-对ReadWriteNode[499,linkedlist.MyListNode@18b,_next,READ,Thread-2,linkedlist/MyLinkedList.java:42]加锁起止位置42->44
+对ReadWriteNode[374,linkedlist.MyListNode@163,_next,READ,Thread-1,linkedlist/MyLinkedList.java:42]加锁起止位置42->44
 结果: 修复成功
