@@ -9,7 +9,7 @@ public class Account {
 	}
 
 	public void setBalance(int balance) {
-		this.balance = balance;
-	}
+synchronized (this){ 		this.balance = balance;
+}	}
 	
 }
