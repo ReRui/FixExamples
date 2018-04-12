@@ -1,0 +1,3 @@
+在Manager.java文件。
+引入一个静态共享变量。
+然后用它将Manager.java中从22行到30行加同步
