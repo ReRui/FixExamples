@@ -3,7 +3,7 @@ package checkfield;
 public class CheckField {
 	static InstanceExample ex;
 	private int num;
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) {
 		ex = new InstanceExample();
 		Thread t1 = new Thread() {
 			public void run() {
