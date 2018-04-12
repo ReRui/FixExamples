@@ -39,14 +39,14 @@ public class MSort extends Thread
         {
 
 
-                  m_iCurrentThreadsAlive++;
+                m_iCurrentThreadsAlive++;
 
         }
 
         //Get a state of available threads in the system and allocate them
         public static synchronized int AvailableThreadsState()//0 - No threads,1 - 1 thread available,2 - 2 threads avilable
         {
-                 int availableThreads=m_iThreadLimit - m_iCurrentThreadsAlive;
+                int availableThreads=m_iThreadLimit - m_iCurrentThreadsAlive;
                 if ((availableThreads)==0)
                     {
                         return 0;
@@ -63,8 +63,8 @@ public class MSort extends Thread
                 }
                 if(true)
                 throw new RuntimeException("BUG");
-                
-               
+
+
                 try
                 {
                    fWriter = new FileWriter(outputFile,true);
@@ -152,8 +152,8 @@ public class MSort extends Thread
              		e.printStackTrace();
              		System.exit(-1);
            }
-        	
-        	
+
+
           try
 
           {
@@ -215,31 +215,33 @@ public class MSort extends Thread
                         iDest2[iCnt] = iSource[iCnt+iDest1.length];
         }
 
+        static Object o = new Object();
         public void run()//Implements .start() methode of the class
         {
+            synchronized (o) {
                 Sorting(); //Invoke sorting methode
-
+            }
         }
 
         public void Sorting()
         {
-                synchronized (this) {if (!bIsInit)//If invoked with String/Silence Constractor,initialization is a mandatory demand
+                if (!bIsInit)//If invoked with String/Silence Constractor,initialization is a mandatory demand
                 {
                         System.out.println("The data isn't initialized !");
                         return;
-                }}
+                }
                 int iSize = m_iArray.length;
                 if (iSize == 1)//Recursion stop condition
                         return;
                 int[] iA = new int[iSize/2];//Split a source array to Left/Right arrays
                 int[] iB = new int[iSize - (iSize/2)];
-            synchronized (this) {CopyArrays(m_iArray,iA,iB);}
-                
-                
+                CopyArrays(m_iArray,iA,iB);
+
+
                     int iMultiThreadedSons = AvailableThreadsState();//Get available threads state
-                	
-                
-                
+
+
+
                 MSort leftSon=new MSort(iA);
                 MSort rightSon=new MSort(iB);
 
