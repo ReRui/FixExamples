@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f4e1b6d-5c87-4e1a-a05a-150c9330506c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/examples/checkfield/CheckField.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/checkfield/CheckField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,25 +28,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/account2/Bank.java">
+      <file leaf-file-name="BuggyProgram.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/buggyprogram/BuggyProgram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+            <state relative-caret-position="456">
+              <caret line="319" column="21" selection-start-line="319" selection-start-column="21" selection-end-line="319" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
-                <element signature="e#967#968#0" expanded="true" />
+                <element signature="e#12730#12731#0" expanded="true" />
+                <element signature="e#12788#12789#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/account2/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-88">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -85,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/examples/critical/Critical.java" />
         <option value="$PROJECT_DIR$/exportExamples/critical/Critical.java" />
         <option value="$PROJECT_DIR$/logFile/critical/修复得到的pattern.txt" />
         <option value="$PROJECT_DIR$/exportExamples/datarace/Main.java" />
@@ -136,6 +125,7 @@
         <option value="$PROJECT_DIR$/examples/org/apache/commons/pool/impl/TestGenericObjectPool.java" />
         <option value="$PROJECT_DIR$/examples/checkfield/CheckField.java" />
         <option value="$PROJECT_DIR$/examples/account2/Bank.java" />
+        <option value="$PROJECT_DIR$/examples/buggyprogram/BuggyProgram.java" />
       </list>
     </option>
   </component>
@@ -177,12 +167,6 @@
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patch" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="account2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -210,11 +194,11 @@
       <recent name="airlinetickets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Patch\examples\buggyprogram" />
       <recent name="D:\Patch\examples\account2" />
       <recent name="D:\Patch\examples" />
       <recent name="D:\Patch\examples\shop" />
       <recent name="D:\Patch\examples\manager" />
-      <recent name="D:\Patch\examples\loader" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -229,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Bank">
+  <component name="RunManager" selected="Application.BuggyProgram">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -244,13 +228,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Cache4jTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.sf.cache4j.test.Cache4jTester" />
+    <configuration name="BuggyProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="buggyprogram.BuggyProgram" />
       <module name="Patch" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.sf.cache4j.test.*" />
+          <option name="PATTERN" value="buggyprogram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -343,19 +327,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.Cache4jTester" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.TestGenericObjectPool" />
       <item itemvalue="Application.Bank" />
       <item itemvalue="Application.CheckField" />
+      <item itemvalue="Application.BuggyProgram" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuggyProgram" />
         <item itemvalue="Application.Bank" />
         <item itemvalue="Application.CheckField" />
         <item itemvalue="Application.TestGenericObjectPool" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Cache4jTester" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +386,7 @@
       <workItem from="1523428538478" duration="2816000" />
       <workItem from="1523431401158" duration="1284000" />
       <workItem from="1523499645668" duration="811000" />
-      <workItem from="1523513411627" duration="7497000" />
+      <workItem from="1523513411627" duration="8225000" />
     </task>
     <servers />
   </component>
@@ -418,7 +402,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199116000" />
+    <option name="totallyTimeSpent" value="199844000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -447,7 +431,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49731904" weight="0.8387553" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1930295" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1930295" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798927" weight="0.6195191" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -607,7 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/buggyprogram/BuggyProgram.java" />
     <entry file="file://$PROJECT_DIR$/examples/critical/Critical.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1210">
@@ -778,6 +761,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/account2/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/account2/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-88">
@@ -785,14 +780,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/account2/Bank.java">
+    <entry file="file://$PROJECT_DIR$/examples/buggyprogram/BuggyProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+        <state relative-caret-position="456">
+          <caret line="319" column="21" selection-start-line="319" selection-start-column="21" selection-end-line="319" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#12730#12731#0" expanded="true" />
+            <element signature="e#12788#12789#0" expanded="true" />
           </folding>
         </state>
       </provider>
