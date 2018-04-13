@@ -18,15 +18,17 @@ public class StringBufferTest extends Thread {
     }
 
     public void run() {
-        System.out.println("started " + Thread.currentThread());
-        System.out.flush();
-        switch (choice) {
-            case 0:
-                al1.append(al2);
-                break;
-            case 1:
-                al1.delete(0, al1.length());
-                break;
+        synchronized (this) {
+            System.out.println("started " + Thread.currentThread());
+            System.out.flush();
+            switch (choice) {
+                case 0:
+                    al1.append(al2);
+                    break;
+                case 1:
+                    al1.delete(0, al1.length());
+                    break;
+            }
         }
     }
 

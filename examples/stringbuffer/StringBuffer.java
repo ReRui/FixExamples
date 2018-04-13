@@ -2,11 +2,11 @@ package stringbuffer;
 
 
 /*
-* @(#)StringBuffer.java	1.78 03/05/16
-*
-* Copyright 2003 Sun Microsystems, Inc. All rights reserved.
-* SUN PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
-*/
+ * @(#)StringBuffer.java	1.78 03/05/16
+ *
+ * Copyright 2003 Sun Microsystems, Inc. All rights reserved.
+ * SUN PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+ */
 
 
 /**
@@ -63,16 +63,15 @@ package stringbuffer;
  * buffer array. If the internal buffer overflows, it is
  * automatically made larger.
  *
- * @author	Arthur van Hoff
- * @version 	1.78, 05/16/03
- * @see     java.io.ByteArrayOutputStream
- * @see     String
- * @since   JDK1.0
+ * @version 1.78, 05/16/03
+ * @author Arthur van Hoff
+ * @see java.io.ByteArrayOutputStream
+ * @see String
+ * @since JDK1.0
  */
 
 public final class StringBuffer
-        implements java.io.Serializable, CharSequence
-{
+        implements java.io.Serializable, CharSequence {
     /**
      * The value is used for character storage.
      *
@@ -94,7 +93,9 @@ public final class StringBuffer
      */
     private boolean shared;
 
-    /** use serialVersionUID from JDK 1.0.2 for interoperability */
+    /**
+     * use serialVersionUID from JDK 1.0.2 for interoperability
+     */
     static final long serialVersionUID = 3388685877147921107L;
 
     /**
@@ -109,9 +110,9 @@ public final class StringBuffer
      * Constructs a string buffer with no characters in it and an
      * initial capacity specified by the <code>length</code> argument.
      *
-     * @param      length   the initial capacity.
-     * @exception  NegativeArraySizeException  if the <code>length</code>
-     *               argument is less than <code>0</code>.
+     * @param length the initial capacity.
+     * @throws NegativeArraySizeException if the <code>length</code>
+     *                                    argument is less than <code>0</code>.
      */
     public StringBuffer(int length) {
         value = new char[length];
@@ -125,8 +126,8 @@ public final class StringBuffer
      * argument string. The initial capacity of the string buffer is
      * <code>16</code> plus the length of the string argument.
      *
-     * @param   str   the initial contents of the buffer.
-     * @exception NullPointerException if <code>str</code> is <code>null</code>
+     * @param str the initial contents of the buffer.
+     * @throws NullPointerException if <code>str</code> is <code>null</code>
      */
     public StringBuffer(String str) {
         this(str.length() + 16);
@@ -136,8 +137,8 @@ public final class StringBuffer
     /**
      * Returns the length (character count) of this string buffer.
      *
-     * @return  the length of the sequence of characters currently
-     *          represented by this string buffer.
+     * @return the length of the sequence of characters currently
+     * represented by this string buffer.
      */
     //synchronized
     public synchronized int length() {
@@ -149,7 +150,7 @@ public final class StringBuffer
      * is the amount of storage available for newly inserted
      * characters; beyond which an allocation will occur.
      *
-     * @return  the current capacity of this string buffer.
+     * @return the current capacity of this string buffer.
      */
     public synchronized int capacity() {
         return value.length;
@@ -179,7 +180,7 @@ public final class StringBuffer
      * If the <code>minimumCapacity</code> argument is nonpositive, this
      * method takes no action and simply returns.
      *
-     * @param   minimumCapacity   the minimum desired capacity.
+     * @param minimumCapacity the minimum desired capacity.
      */
     public synchronized void ensureCapacity(int minimumCapacity) {
         if (minimumCapacity > value.length) {
@@ -217,7 +218,7 @@ public final class StringBuffer
      * character at index <i>k</i> in the old sequence if <i>k</i> is less
      * than the length of the old character sequence; otherwise, it is the
      * null character <code>'&#92;u0000'</code>.
-     *
+     * <p>
      * In other words, if the <code>newLength</code> argument is less than
      * the current length of the string buffer, the string buffer is
      * truncated to contain exactly the number of characters given by the
@@ -231,10 +232,10 @@ public final class StringBuffer
      * The <code>newLength</code> argument must be greater than or equal
      * to <code>0</code>.
      *
-     * @param      newLength   the new length of the buffer.
-     * @exception  IndexOutOfBoundsException  if the
-     *               <code>newLength</code> argument is negative.
-     * @see        java.lang.StringBuffer#length()
+     * @param newLength the new length of the buffer.
+     * @throws IndexOutOfBoundsException if the
+     *                                   <code>newLength</code> argument is negative.
+     * @see java.lang.StringBuffer#length()
      */
     public synchronized void setLength(int newLength) {
         if (newLength < 0) {
@@ -275,11 +276,11 @@ public final class StringBuffer
      * The index argument must be greater than or equal to
      * <code>0</code>, and less than the length of this string buffer.
      *
-     * @param      index   the index of the desired character.
-     * @return     the character at the specified index of this string buffer.
-     * @exception  IndexOutOfBoundsException  if <code>index</code> is
-     *             negative or greater than or equal to <code>length()</code>.
-     * @see        java.lang.StringBuffer#length()
+     * @param index the index of the desired character.
+     * @return the character at the specified index of this string buffer.
+     * @throws IndexOutOfBoundsException if <code>index</code> is
+     *                                   negative or greater than or equal to <code>length()</code>.
+     * @see java.lang.StringBuffer#length()
      */
     public synchronized char charAt(int index) {
         if ((index < 0) || (index >= count)) {
@@ -300,24 +301,24 @@ public final class StringBuffer
      * dstbegin + (srcEnd-srcBegin) - 1
      * </pre></blockquote>
      *
-     * @param      srcBegin   start copying at this offset in the string buffer.
-     * @param      srcEnd     stop copying at this offset in the string buffer.
-     * @param      dst        the array to copy the data into.
-     * @param      dstBegin   offset into <code>dst</code>.
-     * @exception  NullPointerException if <code>dst</code> is
-     *             <code>null</code>.
-     * @exception  IndexOutOfBoundsException  if any of the following is true:
-     *             <ul>
-     *             <li><code>srcBegin</code> is negative
-     *             <li><code>dstBegin</code> is negative
-     *             <li>the <code>srcBegin</code> argument is greater than
-     *             the <code>srcEnd</code> argument.
-     *             <li><code>srcEnd</code> is greater than
-     *             <code>this.length()</code>, the current length of this
-     *             string buffer.
-     *             <li><code>dstBegin+srcEnd-srcBegin</code> is greater than
-     *             <code>dst.length</code>
-     *             </ul>
+     * @param srcBegin start copying at this offset in the string buffer.
+     * @param srcEnd   stop copying at this offset in the string buffer.
+     * @param dst      the array to copy the data into.
+     * @param dstBegin offset into <code>dst</code>.
+     * @throws NullPointerException      if <code>dst</code> is
+     *                                   <code>null</code>.
+     * @throws IndexOutOfBoundsException if any of the following is true:
+     *                                   <ul>
+     *                                   <li><code>srcBegin</code> is negative
+     *                                   <li><code>dstBegin</code> is negative
+     *                                   <li>the <code>srcBegin</code> argument is greater than
+     *                                   the <code>srcEnd</code> argument.
+     *                                   <li><code>srcEnd</code> is greater than
+     *                                   <code>this.length()</code>, the current length of this
+     *                                   string buffer.
+     *                                   <li><code>dstBegin+srcEnd-srcBegin</code> is greater than
+     *                                   <code>dst.length</code>
+     *                                   </ul>
      */
     //synchronized
     public synchronized void getChars(int srcBegin, int srcEnd, char dst[], int dstBegin) {
@@ -343,11 +344,11 @@ public final class StringBuffer
      * The index argument must be greater than or equal to
      * <code>0</code>, and less than the length of this string buffer.
      *
-     * @param      index   the index of the character to modify.
-     * @param      ch      the new character.
-     * @exception  IndexOutOfBoundsException  if <code>index</code> is
-     *             negative or greater than or equal to <code>length()</code>.
-     * @see        java.lang.StringBuffer#length()
+     * @param index the index of the character to modify.
+     * @param ch    the new character.
+     * @throws IndexOutOfBoundsException if <code>index</code> is
+     *                                   negative or greater than or equal to <code>length()</code>.
+     * @see java.lang.StringBuffer#length()
      */
     public synchronized void setCharAt(int index, char ch) {
         if ((index < 0) || (index >= count)) {
@@ -365,10 +366,10 @@ public final class StringBuffer
      * <code>String.valueOf</code>, and the characters of that
      * string are then appended to this string buffer.
      *
-     * @param   obj   an <code>Object</code>.
-     * @return  a reference to this <code>StringBuffer</code> object.
-     * @see     String#valueOf(Object)
-     * @see     java.lang.StringBuffer#append(String)
+     * @param obj an <code>Object</code>.
+     * @return a reference to this <code>StringBuffer</code> object.
+     * @see String#valueOf(Object)
+     * @see java.lang.StringBuffer#append(String)
      */
     public synchronized StringBuffer append(Object obj) {
         return append(String.valueOf(obj));
@@ -391,8 +392,8 @@ public final class StringBuffer
      * otherwise, it is equal to the character at index <i>k-n</i> in the
      * argument <code>str</code>.
      *
-     * @param   str   a string.
-     * @return  a reference to this <code>StringBuffer</code>.
+     * @param str a string.
+     * @return a reference to this <code>StringBuffer</code>.
      */
     public synchronized StringBuffer append(String str) {
         if (str == null) {
@@ -431,8 +432,8 @@ public final class StringBuffer
      * (This ensures that the storage of this <tt>StringBuffer</tt> is
      * adequate to contain the additional characters being appended.)
      *
-     * @param   sb         the <tt>StringBuffer</tt> to append.
-     * @return  a reference to this <tt>StringBuffer</tt>.
+     * @param sb the <tt>StringBuffer</tt> to append.
+     * @return a reference to this <tt>StringBuffer</tt>.
      * @since 1.4
      */
     public synchronized StringBuffer append(StringBuffer sb) {
@@ -449,7 +450,7 @@ public final class StringBuffer
         return this;
     }
 
-    private static final StringBuffer NULL =  new StringBuffer("null");
+    private static final StringBuffer NULL = new StringBuffer("null");
 
     /**
      * Appends the string representation of the <code>char</code> array
@@ -464,8 +465,8 @@ public final class StringBuffer
      * characters of that string were then {@link #append(String) appended}
      * to this <code>StringBuffer</code> object.
      *
-     * @param   str   the characters to be appended.
-     * @return  a reference to this <code>StringBuffer</code> object.
+     * @param str the characters to be appended.
+     * @return a reference to this <code>StringBuffer</code> object.
      */
     public synchronized StringBuffer append(char str[]) {
         int len = str.length;
@@ -487,14 +488,14 @@ public final class StringBuffer
      * by the value of <code>len</code>.
      * <p>
      * The overall effect is exactly as if the arguments were converted to
-     * a string by the method {@link String#valueOf(char[],int,int)} and the
+     * a string by the method {@link String#valueOf(char[], int, int)} and the
      * characters of that string were then {@link #append(String) appended}
      * to this <code>StringBuffer</code> object.
      *
-     * @param   str      the characters to be appended.
-     * @param   offset   the index of the first character to append.
-     * @param   len      the number of characters to append.
-     * @return  a reference to this <code>StringBuffer</code> object.
+     * @param str    the characters to be appended.
+     * @param offset the index of the first character to append.
+     * @param len    the number of characters to append.
+     * @return a reference to this <code>StringBuffer</code> object.
      */
     public synchronized StringBuffer append(char str[], int offset, int len) {
         int newcount = count + len;
@@ -513,10 +514,10 @@ public final class StringBuffer
      * <code>String.valueOf</code>, and the characters of that
      * string are then appended to this string buffer.
      *
-     * @param   b   a <code>boolean</code>.
-     * @return  a reference to this <code>StringBuffer</code>.
-     * @see     String#valueOf(boolean)
-     * @see     java.lang.StringBuffer#append(String)
+     * @param b a <code>boolean</code>.
+     * @return a reference to this <code>StringBuffer</code>.
+     * @see String#valueOf(boolean)
+     * @see java.lang.StringBuffer#append(String)
      */
     public synchronized StringBuffer append(boolean b) {
         if (b) {
@@ -552,8 +553,8 @@ public final class StringBuffer
      * in that string were then {@link #append(String) appended} to this
      * <code>StringBuffer</code> object.
      *
-     * @param   c   a <code>char</code>.
-     * @return  a reference to this <code>StringBuffer</code> object.
+     * @param c a <code>char</code>.
+     * @return a reference to this <code>StringBuffer</code> object.
      */
     public synchronized StringBuffer append(char c) {
         int newcount = count + 1;
@@ -642,13 +643,13 @@ public final class StringBuffer
      * <code>StringBuffer</code> if no such character exists. If
      * <code>start</code> is equal to <code>end</code>, no changes are made.
      *
-     * @param      start  The beginning index, inclusive.
-     * @param      end    The ending index, exclusive.
-     * @return     This string buffer.
-     * @exception  StringIndexOutOfBoundsException  if <code>start</code>
-     *             is negative, greater than <code>length()</code>, or
-     *		   greater than <code>end</code>.
-     * @since      1.2
+     * @param start The beginning index, inclusive.
+     * @param end   The ending index, exclusive.
+     * @return This string buffer.
+     * @throws StringIndexOutOfBoundsException if <code>start</code>
+     *                                         is negative, greater than <code>length()</code>, or
+     *                                         greater than <code>end</code>.
+     * @since 1.2
      */
     //synchronized
     public synchronized StringBuffer delete(int start, int end) {
@@ -663,7 +664,7 @@ public final class StringBuffer
         if (len > 0) {
             if (shared)
                 copy();
-            System.arraycopy(value, start+len, value, start, count-end);
+            System.arraycopy(value, start + len, value, start, count - end);
             count -= len;
         }
         return this;
@@ -674,19 +675,19 @@ public final class StringBuffer
      * <code>StringBuffer</code> (shortening the <code>StringBuffer</code>
      * by one character).
      *
-     * @param       index  Index of character to remove
-     * @return      This string buffer.
-     * @exception   StringIndexOutOfBoundsException  if the <code>index</code>
-     *		    is negative or greater than or equal to
-     *		    <code>length()</code>.
-     * @since       1.2
+     * @param index Index of character to remove
+     * @return This string buffer.
+     * @throws StringIndexOutOfBoundsException if the <code>index</code>
+     *                                         is negative or greater than or equal to
+     *                                         <code>length()</code>.
+     * @since 1.2
      */
     public synchronized StringBuffer deleteCharAt(int index) {
         if ((index < 0) || (index >= count))
             throw new StringIndexOutOfBoundsException();
         if (shared)
             copy();
-        System.arraycopy(value, index+1, value, index, count-index-1);
+        System.arraycopy(value, index + 1, value, index, count - index - 1);
         count--;
         return this;
     }
@@ -702,14 +703,14 @@ public final class StringBuffer
      * <code>StringBuffer</code> will be lengthened to accommodate the
      * specified String if necessary.)
      *
-     * @param      start    The beginning index, inclusive.
-     * @param      end      The ending index, exclusive.
-     * @param      str   String that will replace previous contents.
-     * @return     This string buffer.
-     * @exception  StringIndexOutOfBoundsException  if <code>start</code>
-     *             is negative, greater than <code>length()</code>, or
-     *		   greater than <code>end</code>.
-     * @since      1.2
+     * @param start The beginning index, inclusive.
+     * @param end   The ending index, exclusive.
+     * @param str   String that will replace previous contents.
+     * @return This string buffer.
+     * @throws StringIndexOutOfBoundsException if <code>start</code>
+     *                                         is negative, greater than <code>length()</code>, or
+     *                                         greater than <code>end</code>.
+     * @since 1.2
      */
     public synchronized StringBuffer replace(int start, int end, String str) {
         if (start < 0)
@@ -738,12 +739,12 @@ public final class StringBuffer
      * substring begins at the specified index and extends to the end of the
      * <code>StringBuffer</code>.
      *
-     * @param      start    The beginning index, inclusive.
-     * @return     The new string.
-     * @exception  StringIndexOutOfBoundsException  if <code>start</code> is
-     *             less than zero, or greater than the length of this
-     *             <code>StringBuffer</code>.
-     * @since      1.2
+     * @param start The beginning index, inclusive.
+     * @return The new string.
+     * @throws StringIndexOutOfBoundsException if <code>start</code> is
+     *                                         less than zero, or greater than the length of this
+     *                                         <code>StringBuffer</code>.
+     * @since 1.2
      */
     public synchronized String substring(int start) {
         return substring(start, count);
@@ -756,24 +757,21 @@ public final class StringBuffer
      *
      * <blockquote><pre>
      * sb.subSequence(begin,&nbsp;end)</pre></blockquote>
-     *
+     * <p>
      * behaves in exactly the same way as the invocation
      *
      * <blockquote><pre>
      * sb.substring(begin,&nbsp;end)</pre></blockquote>
-     *
+     * <p>
      * This method is provided so that the <tt>StringBuffer</tt> class can
      * implement the {@link CharSequence} interface. </p>
      *
-     * @param      start   the start index, inclusive.
-     * @param      end     the end index, exclusive.
-     * @return     the specified subsequence.
-     *
-     * @throws  IndexOutOfBoundsException
-     *          if <tt>start</tt> or <tt>end</tt> are negative,
-     *          if <tt>end</tt> is greater than <tt>length()</tt>,
-     *          or if <tt>start</tt> is greater than <tt>end</tt>
-     *
+     * @param start the start index, inclusive.
+     * @param end   the end index, exclusive.
+     * @return the specified subsequence.
+     * @throws IndexOutOfBoundsException if <tt>start</tt> or <tt>end</tt> are negative,
+     *                                   if <tt>end</tt> is greater than <tt>length()</tt>,
+     *                                   or if <tt>start</tt> is greater than <tt>end</tt>
      * @since 1.4
      */
     public CharSequence subSequence(int start, int end) {
@@ -787,14 +785,14 @@ public final class StringBuffer
      * extends to the character at index <code>end - 1</code>. An
      * exception is thrown if
      *
-     * @param      start    The beginning index, inclusive.
-     * @param      end      The ending index, exclusive.
-     * @return     The new string.
-     * @exception  StringIndexOutOfBoundsException  if <code>start</code>
-     *             or <code>end</code> are negative or greater than
-     *		   <code>length()</code>, or <code>start</code> is
-     *		   greater than <code>end</code>.
-     * @since      1.2
+     * @param start The beginning index, inclusive.
+     * @param end   The ending index, exclusive.
+     * @return The new string.
+     * @throws StringIndexOutOfBoundsException if <code>start</code>
+     *                                         or <code>end</code> are negative or greater than
+     *                                         <code>length()</code>, or <code>start</code> is
+     *                                         greater than <code>end</code>.
+     * @since 1.2
      */
     public synchronized String substring(int start, int end) {
         if (start < 0)
@@ -814,18 +812,18 @@ public final class StringBuffer
      * the position indicated by <code>index</code>. The length of this
      * <code>StringBuffer</code> increases by <code>len</code> characters.
      *
-     * @param      index    position at which to insert subarray.
-     * @param      str       A character array.
-     * @param      offset   the index of the first character in subarray to
-     *		   to be inserted.
-     * @param      len      the number of characters in the subarray to
-     *		   to be inserted.
-     * @return     This string buffer.
-     * @exception  StringIndexOutOfBoundsException  if <code>index</code>
-     *             is negative or greater than <code>length()</code>, or
-     *		   <code>offset</code> or <code>len</code> are negative, or
-     *		   <code>(offset+len)</code> is greater than
-     *		   <code>str.length</code>.
+     * @param index  position at which to insert subarray.
+     * @param str    A character array.
+     * @param offset the index of the first character in subarray to
+     *               to be inserted.
+     * @param len    the number of characters in the subarray to
+     *               to be inserted.
+     * @return This string buffer.
+     * @throws StringIndexOutOfBoundsException if <code>index</code>
+     *                                         is negative or greater than <code>length()</code>, or
+     *                                         <code>offset</code> or <code>len</code> are negative, or
+     *                                         <code>(offset+len)</code> is greater than
+     *                                         <code>str.length</code>.
      * @since 1.2
      */
     public synchronized StringBuffer insert(int index, char str[], int offset,
@@ -860,13 +858,13 @@ public final class StringBuffer
      * <code>0</code>, and less than or equal to the length of this
      * string buffer.
      *
-     * @param      offset   the offset.
-     * @param      obj      an <code>Object</code>.
-     * @return     a reference to this <code>StringBuffer</code> object.
-     * @exception  StringIndexOutOfBoundsException  if the offset is invalid.
-     * @see        String#valueOf(Object)
-     * @see        java.lang.StringBuffer#insert(int, String)
-     * @see        java.lang.StringBuffer#length()
+     * @param offset the offset.
+     * @param obj    an <code>Object</code>.
+     * @return a reference to this <code>StringBuffer</code> object.
+     * @throws StringIndexOutOfBoundsException if the offset is invalid.
+     * @see String#valueOf(Object)
+     * @see java.lang.StringBuffer#insert(int, String)
+     * @see java.lang.StringBuffer#length()
      */
     public synchronized StringBuffer insert(int offset, Object obj) {
         return insert(offset, String.valueOf(obj));
@@ -898,11 +896,11 @@ public final class StringBuffer
      * <code>0</code>, and less than or equal to the length of this
      * string buffer.
      *
-     * @param      offset   the offset.
-     * @param      str      a string.
-     * @return     a reference to this <code>StringBuffer</code> object.
-     * @exception  StringIndexOutOfBoundsException  if the offset is invalid.
-     * @see        java.lang.StringBuffer#length()
+     * @param offset the offset.
+     * @param str    a string.
+     * @return a reference to this <code>StringBuffer</code> object.
+     * @throws StringIndexOutOfBoundsException if the offset is invalid.
+     * @see java.lang.StringBuffer#length()
      */
     public synchronized StringBuffer insert(int offset, String str) {
         if ((offset < 0) || (offset > count)) {
@@ -936,14 +934,14 @@ public final class StringBuffer
      * The overall effect is exactly as if the argument were converted to
      * a string by the method {@link String#valueOf(char[])} and the
      * characters of that string were then
-     * {@link #insert(int,String) inserted} into this
+     * {@link #insert(int, String) inserted} into this
      * <code>StringBuffer</code>  object at the position indicated by
      * <code>offset</code>.
      *
-     * @param      offset   the offset.
-     * @param      str      a character array.
-     * @return     a reference to this <code>StringBuffer</code> object.
-     * @exception  StringIndexOutOfBoundsException  if the offset is invalid.
+     * @param offset the offset.
+     * @param str    a character array.
+     * @return a reference to this <code>StringBuffer</code> object.
+     * @throws StringIndexOutOfBoundsException if the offset is invalid.
      */
     public synchronized StringBuffer insert(int offset, char str[]) {
         if ((offset < 0) || (offset > count)) {
@@ -974,13 +972,13 @@ public final class StringBuffer
      * <code>0</code>, and less than or equal to the length of this
      * string buffer.
      *
-     * @param      offset   the offset.
-     * @param      b        a <code>boolean</code>.
-     * @return     a reference to this <code>StringBuffer</code> object.
-     * @exception  StringIndexOutOfBoundsException  if the offset is invalid.
-     * @see        String#valueOf(boolean)
-     * @see        java.lang.StringBuffer#insert(int, String)
-     * @see        java.lang.StringBuffer#length()
+     * @param offset the offset.
+     * @param b      a <code>boolean</code>.
+     * @return a reference to this <code>StringBuffer</code> object.
+     * @throws StringIndexOutOfBoundsException if the offset is invalid.
+     * @see String#valueOf(boolean)
+     * @see java.lang.StringBuffer#insert(int, String)
+     * @see java.lang.StringBuffer#length()
      */
     public StringBuffer insert(int offset, boolean b) {
         return insert(offset, String.valueOf(b));
@@ -1004,11 +1002,11 @@ public final class StringBuffer
      * <code>0</code>, and less than or equal to the length of this
      * string buffer.
      *
-     * @param      offset   the offset.
-     * @param      c        a <code>char</code>.
-     * @return     a reference to this <code>StringBuffer</code> object.
-     * @exception  IndexOutOfBoundsException  if the offset is invalid.
-     * @see        java.lang.StringBuffer#length()
+     * @param offset the offset.
+     * @param c      a <code>char</code>.
+     * @return a reference to this <code>StringBuffer</code> object.
+     * @throws IndexOutOfBoundsException if the offset is invalid.
+     * @see java.lang.StringBuffer#length()
      */
     public synchronized StringBuffer insert(int offset, char c) {
         int newcount = count + 1;
@@ -1035,13 +1033,13 @@ public final class StringBuffer
      * <code>0</code>, and less than or equal to the length of this
      * string buffer.
      *
-     * @param      offset   the offset.
-     * @param      i        an <code>int</code>.
-     * @return     a reference to this <code>StringBuffer</code> object.
-     * @exception  StringIndexOutOfBoundsException  if the offset is invalid.
-     * @see        String#valueOf(int)
-     * @see        java.lang.StringBuffer#insert(int, String)
-     * @see        java.lang.StringBuffer#length()
+     * @param offset the offset.
+     * @param i      an <code>int</code>.
+     * @return a reference to this <code>StringBuffer</code> object.
+     * @throws StringIndexOutOfBoundsException if the offset is invalid.
+     * @see String#valueOf(int)
+     * @see java.lang.StringBuffer#insert(int, String)
+     * @see java.lang.StringBuffer#length()
      */
     public StringBuffer insert(int offset, int i) {
         return insert(offset, String.valueOf(i));
@@ -1060,13 +1058,13 @@ public final class StringBuffer
      * <code>0</code>, and less than or equal to the length of this
      * string buffer.
      *
-     * @param      offset   the offset.
-     * @param      l        a <code>long</code>.
-     * @return     a reference to this <code>StringBuffer</code> object.
-     * @exception  StringIndexOutOfBoundsException  if the offset is invalid.
-     * @see        String#valueOf(long)
-     * @see        java.lang.StringBuffer#insert(int, String)
-     * @see        java.lang.StringBuffer#length()
+     * @param offset the offset.
+     * @param l      a <code>long</code>.
+     * @return a reference to this <code>StringBuffer</code> object.
+     * @throws StringIndexOutOfBoundsException if the offset is invalid.
+     * @see String#valueOf(long)
+     * @see java.lang.StringBuffer#insert(int, String)
+     * @see java.lang.StringBuffer#length()
      */
     public StringBuffer insert(int offset, long l) {
         return insert(offset, String.valueOf(l));
@@ -1085,13 +1083,13 @@ public final class StringBuffer
      * <code>0</code>, and less than or equal to the length of this
      * string buffer.
      *
-     * @param      offset   the offset.
-     * @param      f        a <code>float</code>.
-     * @return     a reference to this <code>StringBuffer</code> object.
-     * @exception  StringIndexOutOfBoundsException  if the offset is invalid.
-     * @see        String#valueOf(float)
-     * @see        java.lang.StringBuffer#insert(int, String)
-     * @see        java.lang.StringBuffer#length()
+     * @param offset the offset.
+     * @param f      a <code>float</code>.
+     * @return a reference to this <code>StringBuffer</code> object.
+     * @throws StringIndexOutOfBoundsException if the offset is invalid.
+     * @see String#valueOf(float)
+     * @see java.lang.StringBuffer#insert(int, String)
+     * @see java.lang.StringBuffer#length()
      */
     public StringBuffer insert(int offset, float f) {
         return insert(offset, String.valueOf(f));
@@ -1110,13 +1108,13 @@ public final class StringBuffer
      * <code>0</code>, and less than or equal to the length of this
      * string buffer.
      *
-     * @param      offset   the offset.
-     * @param      d        a <code>double</code>.
-     * @return     a reference to this <code>StringBuffer</code> object.
-     * @exception  StringIndexOutOfBoundsException  if the offset is invalid.
-     * @see        String#valueOf(double)
-     * @see        java.lang.StringBuffer#insert(int, String)
-     * @see        java.lang.StringBuffer#length()
+     * @param offset the offset.
+     * @param d      a <code>double</code>.
+     * @return a reference to this <code>StringBuffer</code> object.
+     * @throws StringIndexOutOfBoundsException if the offset is invalid.
+     * @see String#valueOf(double)
+     * @see java.lang.StringBuffer#insert(int, String)
+     * @see java.lang.StringBuffer#length()
      */
     public StringBuffer insert(int offset, double d) {
         return insert(offset, String.valueOf(d));
@@ -1132,13 +1130,13 @@ public final class StringBuffer
      * is <code>true</code>.
      *
      * @param   str   any string.
-     * @return  if the string argument occurs as a substring within this
+     * @return if the string argument occurs as a substring within this
      *          object, then the index of the first character of the first
      *          such substring is returned; if it does not occur as a
      *          substring, <code>-1</code> is returned.
      * @exception NullPointerException if <code>str</code> is
      *          <code>null</code>.
-     * @since   1.4
+     * @since 1.4
      */
 //    public int indexOf(String str) {
 //	return indexOf(str, 0);
@@ -1156,11 +1154,11 @@ public final class StringBuffer
      *
      * @param   str         the substring for which to search.
      * @param   fromIndex   the index from which to start the search.
-     * @return  the index within this string of the first occurrence of the
+     * @return the index within this string of the first occurrence of the
      *          specified substring, starting at the specified index.
      * @exception NullPointerException if <code>str</code> is
      *            <code>null</code>.
-     * @since   1.4
+     * @since 1.4
      */
 //    public synchronized int indexOf(String str, int fromIndex) {
 //        return String.indexOf(value, 0, count,
@@ -1178,13 +1176,13 @@ public final class StringBuffer
      * is true.
      *
      * @param   str   the substring to search for.
-     * @return  if the string argument occurs one or more times as a substring
+     * @return if the string argument occurs one or more times as a substring
      *          within this object, then the index of the first character of
      *          the last such substring is returned. If it does not occur as
      *          a substring, <code>-1</code> is returned.
      * @exception NullPointerException  if <code>str</code> is
      *          <code>null</code>.
-     * @since   1.4
+     * @since 1.4
      */
 //    public synchronized int lastIndexOf(String str) {
 //        return lastIndexOf(str, count);
@@ -1202,11 +1200,11 @@ public final class StringBuffer
      *
      * @param   str         the substring to search for.
      * @param   fromIndex   the index to start the search from.
-     * @return  the index within this string of the last occurrence of the
+     * @return the index within this string of the last occurrence of the
      *          specified substring.
      * @exception NullPointerException if <code>str</code> is
      *          <code>null</code>.
-     * @since   1.4
+     * @since 1.4
      */
 //    public synchronized int lastIndexOf(String str, int fromIndex) {
 //        return String.lastIndexOf(value, 0, count,
@@ -1223,13 +1221,13 @@ public final class StringBuffer
      * the new character sequence is equal to the character at index
      * <i>n-k-1</i> in the old character sequence.
      *
-     * @return  a reference to this <code>StringBuffer</code> object.
-     * @since   JDK1.0.2
+     * @return a reference to this <code>StringBuffer</code> object.
+     * @since JDK1.0.2
      */
     public synchronized StringBuffer reverse() {
         if (shared) copy();
         int n = count - 1;
-        for (int j = (n-1) >> 1; j >= 0; --j) {
+        for (int j = (n - 1) >> 1; j >= 0; --j) {
             char temp = value[j];
             value[j] = value[n - j];
             value[n - j] = temp;
@@ -1253,19 +1251,24 @@ public final class StringBuffer
      * the internal buffer at that time. This strategy is effective for
      * reducing the amount of memory allocated by a string concatenation
      * operation when it is implemented using a string buffer.
-     *
-     //     * @return  a string representation of the string buffer.
+     * <p>
+     * //     * @return  a string representation of the string buffer.
      */
     public String toString() {
-	return new String(value);
+        return new String(value);
     }
 
     //
     // The following two methods are needed by String to efficiently
     // convert a StringBuffer into a String.  They are not public.
     // They shouldn't be called by anyone but String.
-    final void setShared() { shared = true; }
-    final char[] getValue() { return value; }
+    final void setShared() {
+        shared = true;
+    }
+
+    final char[] getValue() {
+        return value;
+    }
 
     /**
      * readObject is called to restore the state of the StringBuffer from
@@ -1278,7 +1281,7 @@ public final class StringBuffer
         shared = false;
     }
 
-    
+
 }
 
 

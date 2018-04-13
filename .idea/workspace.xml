@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f4e1b6d-5c87-4e1a-a05a-150c9330506c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/spec/jbb/validity/LoopBounds.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/spec/jbb/validity/LoopBounds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/stringbuffer/StringBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/stringbuffer/StringBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/stringbuffer/StringBufferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/stringbuffer/StringBufferTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,36 +29,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoopBounds.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/spec/jbb/validity/LoopBounds.java">
+      <file leaf-file-name="StringBuffer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/stringbuffer/StringBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="82" column="13" lean-forward="true" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+            <state relative-caret-position="72">
+              <caret line="133" column="8" selection-start-line="133" selection-start-column="8" selection-end-line="133" selection-end-column="8" />
+              <folding>
+                <element signature="e#5029#5030#0" expanded="true" />
+                <element signature="e#5057#5058#0" expanded="true" />
+                <element signature="e#14404#14405#0" expanded="true" />
+                <element signature="e#14454#14455#0" expanded="true" />
+                <element signature="e#51326#51327#0" expanded="true" />
+                <element signature="e#51355#51356#0" expanded="true" />
+                <element signature="e#51386#51387#0" expanded="true" />
+                <element signature="e#51414#51415#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PepTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/spec/jbb/validity/PepTest.java">
+      <file leaf-file-name="StringBufferTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/stringbuffer/StringBufferTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="193" column="37" selection-start-line="187" selection-start-column="6" selection-end-line="187" selection-end-column="13" />
-              <folding>
-                <element signature="e#2077#2078#0" expanded="true" />
-                <element signature="e#2103#2104#0" expanded="true" />
-                <element signature="e#2136#2137#0" expanded="true" />
-                <element signature="e#2171#2172#0" expanded="true" />
-                <element signature="e#2247#2248#0" expanded="true" />
-                <element signature="e#2271#2272#0" expanded="true" />
-                <element signature="e#2314#2315#0" expanded="true" />
-                <element signature="e#2350#2351#0" expanded="true" />
-                <element signature="e#2518#2519#0" expanded="true" />
-                <element signature="e#2544#2545#0" expanded="true" />
-                <element signature="e#2577#2578#0" expanded="true" />
-                <element signature="e#2610#2611#0" expanded="true" />
-                <element signature="e#6302#6303#0" expanded="true" />
-                <element signature="e#6341#6342#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="280">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -99,8 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/exportExamples/mergesort/MSort.java" />
-        <option value="$PROJECT_DIR$/examples/org/apache/commons/pool/impl/TestGenericObjectPool.java" />
         <option value="$PROJECT_DIR$/examples/checkfield/CheckField.java" />
         <option value="$PROJECT_DIR$/examples/account2/Bank.java" />
         <option value="$PROJECT_DIR$/examples/buggyprogram/BuggyProgram.java" />
@@ -150,6 +141,8 @@
         <option value="$PROJECT_DIR$/examples/spec/reporter/TextMetrics.java" />
         <option value="$PROJECT_DIR$/examples/spec/reporter/Title.java" />
         <option value="$PROJECT_DIR$/examples/spec/jbb/validity/LoopBounds.java" />
+        <option value="$PROJECT_DIR$/examples/stringbuffer/StringBuffer.java" />
+        <option value="$PROJECT_DIR$/examples/stringbuffer/StringBufferTest.java" />
       </list>
     </option>
   </component>
@@ -198,29 +191,7 @@
               <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patch" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
-              <item name="jbb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patch" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
-              <item name="jbb" type="462c0819:PsiDirectoryNode" />
-              <item name="validity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patch" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
-              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="stringbuffer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -265,20 +236,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LoopBounds">
+  <component name="RunManager" selected="Application.StringBufferTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="Cache4jTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.sf.cache4j.test.Cache4jTester" />
-      <module name="Patch" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.sf.cache4j.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="LoopBounds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spec.jbb.validity.LoopBounds" />
@@ -309,6 +269,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StringBufferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stringbuffer.StringBufferTest" />
+      <module name="Patch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stringbuffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,19 +350,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.Cache4jTester" />
       <item itemvalue="Application.Shop" />
       <item itemvalue="Application.LoopBounds" />
       <item itemvalue="Application.syncTest" />
       <item itemvalue="Application.PepTest" />
+      <item itemvalue="Application.StringBufferTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringBufferTest" />
         <item itemvalue="Application.LoopBounds" />
         <item itemvalue="Application.PepTest" />
         <item itemvalue="Application.syncTest" />
         <item itemvalue="Application.Shop" />
-        <item itemvalue="Application.Cache4jTester" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +410,7 @@
       <workItem from="1523431401158" duration="1284000" />
       <workItem from="1523499645668" duration="811000" />
       <workItem from="1523513411627" duration="12017000" />
-      <workItem from="1523585684406" duration="4322000" />
+      <workItem from="1523585684406" duration="5278000" />
     </task>
     <servers />
   </component>
@@ -455,7 +426,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207958000" />
+    <option name="totallyTimeSpent" value="208914000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -486,6 +457,7 @@
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.19571045" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798927" weight="0.6195191" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -497,17 +469,15 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798927" weight="0.6195191" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798927" weight="0.6195191" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.59971714" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.59971714" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19571045" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19571045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
@@ -516,13 +486,14 @@
       <window_info id="Designer" order="3" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49798927" visible="true" weight="0.6195191" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49731904" weight="0.8387553" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50268096" side_tool="true" weight="0.8387553" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3281471" />
@@ -546,26 +517,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/example2/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example2/ExampleThread1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/example2/ExampleThread2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -906,6 +857,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/spec/jbb/validity/LoopBounds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/spec/jbb/validity/PepTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -929,10 +887,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/spec/jbb/validity/LoopBounds.java">
+    <entry file="file://$PROJECT_DIR$/examples/stringbuffer/StringBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="82" column="13" lean-forward="true" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+        <state relative-caret-position="72">
+          <caret line="133" column="8" selection-start-line="133" selection-start-column="8" selection-end-line="133" selection-end-column="8" />
+          <folding>
+            <element signature="e#5029#5030#0" expanded="true" />
+            <element signature="e#5057#5058#0" expanded="true" />
+            <element signature="e#14404#14405#0" expanded="true" />
+            <element signature="e#14454#14455#0" expanded="true" />
+            <element signature="e#51326#51327#0" expanded="true" />
+            <element signature="e#51355#51356#0" expanded="true" />
+            <element signature="e#51386#51387#0" expanded="true" />
+            <element signature="e#51414#51415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stringbuffer/StringBufferTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
     </entry>
