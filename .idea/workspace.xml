@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f4e1b6d-5c87-4e1a-a05a-150c9330506c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/example2/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example2/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/example2/ExampleThread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example2/ExampleThread1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/example2/ExampleThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example2/ExampleThread2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/example2/ExampleTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example2/ExampleTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/example2/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patch/example2/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/example2/ExampleThread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patch/example2/ExampleThread1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/example2/ExampleThread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patch/example2/ExampleThread2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/example2/ExampleTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patch/example2/ExampleTwo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,15 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BuggyProgram.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/buggyprogram/BuggyProgram.java">
+      <file leaf-file-name="Cache4jTester.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/net/sf/cache4j/test/Cache4jTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="319" column="21" selection-start-line="319" selection-start-column="21" selection-end-line="319" selection-end-column="21" />
-              <folding>
-                <element signature="e#12730#12731#0" expanded="true" />
-                <element signature="e#12788#12789#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="4664">
+              <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
             </state>
           </provider>
         </entry>
@@ -75,15 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/exportExamples/critical/Critical.java" />
-        <option value="$PROJECT_DIR$/logFile/critical/修复得到的pattern.txt" />
-        <option value="$PROJECT_DIR$/exportExamples/datarace/Main.java" />
-        <option value="$PROJECT_DIR$/exportExamples/datarace/Checker.java" />
-        <option value="$PROJECT_DIR$/examples/mergesort/MergeSort.java" />
-        <option value="$PROJECT_DIR$/examples/pack_test/CheckField.java" />
-        <option value="$PROJECT_DIR$/examples/pingpong/BuggedProgram.java" />
-        <option value="$PROJECT_DIR$/examples/checkfield/InstanceExample.java" />
-        <option value="$PROJECT_DIR$/examples/random/Rand.java" />
         <option value="$PROJECT_DIR$/exportExamples/datarace/CustomerInfo.java" />
         <option value="$PROJECT_DIR$/exportExamples/even/EvenChecker.java" />
         <option value="$PROJECT_DIR$/exportExamples/even/EvenGenerator.java" />
@@ -126,6 +121,15 @@
         <option value="$PROJECT_DIR$/examples/checkfield/CheckField.java" />
         <option value="$PROJECT_DIR$/examples/account2/Bank.java" />
         <option value="$PROJECT_DIR$/examples/buggyprogram/BuggyProgram.java" />
+        <option value="$PROJECT_DIR$/examples/example2/ExampleTwo.java" />
+        <option value="$PROJECT_DIR$/examples/example2/Account.java" />
+        <option value="$PROJECT_DIR$/examples/example2/ExampleThread1.java" />
+        <option value="$PROJECT_DIR$/examples/example2/ExampleThread2.java" />
+        <option value="$PROJECT_DIR$/examples/loader/NewThread.java" />
+        <option value="$PROJECT_DIR$/examples/loader/Loader.java" />
+        <option value="$PROJECT_DIR$/examples/manager/TmemoryHandler.java" />
+        <option value="$PROJECT_DIR$/examples/manager/Manager.java" />
+        <option value="$PROJECT_DIR$/examples/manager/Trelease.java" />
       </list>
     </option>
   </component>
@@ -155,6 +159,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,13 +174,23 @@
               <item name="Patch" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patch" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="cache4j" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patch" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="cache4j" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,11 +211,11 @@
       <recent name="airlinetickets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Patch\examples\manager" />
+      <recent name="D:\Patch\examples\loader" />
       <recent name="D:\Patch\examples\buggyprogram" />
       <recent name="D:\Patch\examples\account2" />
       <recent name="D:\Patch\examples" />
-      <recent name="D:\Patch\examples\shop" />
-      <recent name="D:\Patch\examples\manager" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -213,20 +230,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BuggyProgram">
+  <component name="RunManager" selected="Application.Cache4jTester">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="account2.Bank" />
-      <module name="Patch" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="account2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="BuggyProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="buggyprogram.BuggyProgram" />
@@ -239,35 +245,46 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CheckField" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="checkfield.CheckField" />
+    <configuration name="Cache4jTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.sf.cache4j.test.Cache4jTester" />
       <module name="Patch" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="checkfield.*" />
+          <option name="PATTERN" value="net.sf.cache4j.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="accountsubtype.Main" />
+    <configuration name="ExampleTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example2.ExampleTwo" />
       <module name="Patch" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="accountsubtype.*" />
+          <option name="PATTERN" value="example2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TestGenericObjectPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.apache.commons.pool.impl.TestGenericObjectPool" />
+    <configuration name="Loader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loader.Loader" />
       <module name="Patch" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.apache.commons.pool.impl.*" />
+          <option name="PATTERN" value="loader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="manager.Manager" />
+      <module name="Patch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="manager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,19 +344,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.TestGenericObjectPool" />
-      <item itemvalue="Application.Bank" />
-      <item itemvalue="Application.CheckField" />
       <item itemvalue="Application.BuggyProgram" />
+      <item itemvalue="Application.ExampleTwo" />
+      <item itemvalue="Application.Loader" />
+      <item itemvalue="Application.Manager" />
+      <item itemvalue="Application.Cache4jTester" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cache4jTester" />
+        <item itemvalue="Application.Manager" />
+        <item itemvalue="Application.Loader" />
+        <item itemvalue="Application.ExampleTwo" />
         <item itemvalue="Application.BuggyProgram" />
-        <item itemvalue="Application.Bank" />
-        <item itemvalue="Application.CheckField" />
-        <item itemvalue="Application.TestGenericObjectPool" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +403,8 @@
       <workItem from="1523428538478" duration="2816000" />
       <workItem from="1523431401158" duration="1284000" />
       <workItem from="1523499645668" duration="811000" />
-      <workItem from="1523513411627" duration="8225000" />
+      <workItem from="1523513411627" duration="12017000" />
+      <workItem from="1523585684406" duration="262000" />
     </task>
     <servers />
   </component>
@@ -402,7 +420,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199844000" />
+    <option name="totallyTimeSpent" value="203898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,41 +444,41 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50268096" side_tool="true" weight="0.8387553" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.59971714" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49731904" weight="0.8387553" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1930295" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19571045" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798927" weight="0.6195191" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798927" weight="0.6195191" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.59971714" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1930295" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1930295" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798927" weight="0.6195191" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
@@ -468,10 +486,10 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49731904" weight="0.8387553" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50268096" side_tool="true" weight="0.8387553" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3281471" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3297587" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -493,13 +511,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/org/apache/log4j/chainsaw/LoadXMLAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1360">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/org/apache/log4j/chainsaw/LoggingReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1094">
@@ -598,49 +609,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example2/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example2/ExampleThread2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example2/ExampleThread1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="33" selection-start-line="13" selection-start-column="12" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example2/ExampleTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/loader/Loader.java" />
-    <entry file="file://$PROJECT_DIR$/examples/loader/NewThread.java" />
-    <entry file="file://$PROJECT_DIR$/examples/manager/Trelease.java" />
-    <entry file="file://$PROJECT_DIR$/examples/manager/TmemoryHandler.java" />
-    <entry file="file://$PROJECT_DIR$/examples/manager/Manager.java" />
     <entry file="file://$PROJECT_DIR$/examples/shop/Customer.java" />
     <entry file="file://$PROJECT_DIR$/examples/shop/Shop.java" />
     <entry file="file://$PROJECT_DIR$/examples/net/sf/cache4j/impl/Utils.java" />
     <entry file="file://$PROJECT_DIR$/examples/net/sf/cache4j/test/BlockingCacheTest.java" />
-    <entry file="file://$PROJECT_DIR$/examples/net/sf/cache4j/test/Test.java" />
-    <entry file="file://$PROJECT_DIR$/examples/net/sf/cache4j/test/SynchronizedCacheTest.java" />
-    <entry file="file://$PROJECT_DIR$/examples/net/sf/cache4j/test/Cache4jTester.java" />
-    <entry file="file://$PROJECT_DIR$/logFile/datarace/修复得到的pattern.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/datarace/CustomerInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -659,12 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="20" />
-          <folding>
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/mergesort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/mergesort/MSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -724,19 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/linkedlist/BugTester.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/pool/impl/CursorableLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="974" column="19" selection-start-line="974" selection-start-column="17" selection-end-line="974" selection-end-column="21" />
-          <folding>
-            <element signature="e#34322#34323#0" expanded="true" />
-            <element signature="e#34358#34359#0" expanded="true" />
-            <element signature="e#34521#34522#0" expanded="true" />
-            <element signature="e#34557#34558#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -765,11 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,12 +727,117 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/buggyprogram/BuggyProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="319" column="21" selection-start-line="319" selection-start-column="21" selection-end-line="319" selection-end-column="21" />
+        <state relative-caret-position="170">
+          <caret line="306" column="22" lean-forward="true" selection-start-line="306" selection-start-column="22" selection-end-line="306" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="695" column="29" selection-start-line="695" selection-start-column="29" selection-end-line="695" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/example2/ExampleTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/example2/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/example2/ExampleThread1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/example2/ExampleThread2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/loader/Loader.java" />
+    <entry file="file://$PROJECT_DIR$/examples/loader/NewThread.java" />
+    <entry file="file://$PROJECT_DIR$/examples/manager/TmemoryHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/mergesort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/manager/Trelease.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
-            <element signature="e#12730#12731#0" expanded="true" />
-            <element signature="e#12788#12789#0" expanded="true" />
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/manager/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/net/sf/cache4j/impl/BlockingCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/net/sf/cache4j/CacheFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#4914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/net/sf/cache4j/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/net/sf/cache4j/test/SynchronizedCacheTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/net/sf/cache4j/test/Cache4jTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4664">
+          <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
         </state>
       </provider>
     </entry>
