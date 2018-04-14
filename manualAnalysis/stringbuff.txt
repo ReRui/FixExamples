@@ -1,0 +1,2 @@
+StringBufferTest.java文件的20行run方法
+用静态object，对run方法加锁
