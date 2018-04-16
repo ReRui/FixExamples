@@ -8,7 +8,7 @@ package stringbuffer;
  * To change this template use File | Settings | File Templates.
  */
 public class StringBufferTest extends Thread {
-    StringBuffer al1, al2;
+static Object objectFix = new Object();    StringBuffer al1, al2;
     int choice;
 
     public StringBufferTest(StringBuffer al1, StringBuffer al2, int choice) {
@@ -20,7 +20,7 @@ public class StringBufferTest extends Thread {
     public void run() {
         System.out.println("started " + Thread.currentThread());
         System.out.flush();
-        switch (choice) {
+synchronized (objectFix){         switch (choice) {
             case 0:
                 al1.append(al2);
                 break;
@@ -28,7 +28,7 @@ public class StringBufferTest extends Thread {
                 al1.delete(0, al1.length());
                 break;
         }
-    }
+}    }
 
     public static void main(String args[]) {
         StringBuffer al1 = new StringBuffer("Hello");
