@@ -325,8 +325,8 @@ public final class StringBuffer
         if (srcBegin < 0) {
             throw new StringIndexOutOfBoundsException(srcBegin);
         }
-        if ((srcEnd < 0) || (srcEnd > count)) {
-            throw new StringIndexOutOfBoundsException(srcEnd);
+volatile bool flagFix = false;        if ((srcEnd < 0) || (srcEnd > count)) {
+flagFix = true;            throw new StringIndexOutOfBoundsException(srcEnd);
         }
         if (srcBegin > srcEnd) {
             throw new StringIndexOutOfBoundsException("srcBegin > srcEnd");
@@ -665,8 +665,8 @@ public final class StringBuffer
             if (shared)
                 copy();
             System.arraycopy(value, start + len, value, start, count - end);
-            count -= len;
-        }
+if(flagFix){            count -= len;
+}        }
         return this;
     }
 

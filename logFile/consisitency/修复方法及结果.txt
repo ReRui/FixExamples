@@ -1,6 +1,3 @@
 修复三
-锁的名字this
-锁的名字this
-对ReadWriteNode[367,consisitency.Main,a,WRITE,Thread-2,consisitency/Main.java:15]加锁起止位置15->16
-锁的名字this
+对ReadWriteNode[365,consisitency.Main,a,WRITE,Thread-1,consisitency/Main.java:15]加锁起止位置15->16
 结果: 修复成功
