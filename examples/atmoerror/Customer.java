@@ -23,6 +23,7 @@ public class Customer implements Runnable {
         }
 
         System.out.println("total: " + account.getTotal());   //打印出银行账户的总计金额
+        //这是原程序中的判断
         /*if (account.getTotal() != 10)
             throw new RuntimeException();*/
     }

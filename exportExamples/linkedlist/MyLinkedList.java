@@ -38,12 +38,12 @@ class MyLinkedList {
         if (p != null && p._current != null) {
             MyListNode tmp;
             // Delete the synch block for the unsynch case
-            synchronized (this) {
-synchronized (_current){                  tmp = new MyListNode(x, p._current._next);
+synchronized (p._current){              synchronized (this) {
+                tmp = new MyListNode(x, p._current._next);
             } // Extend the synch block one stmt to eliminate the bug
-             p._current._next = tmp;
-}        }
-    }
+            p._current._next = tmp;
+        }
+}    }
 
     //Inserts element to the end of list .
     //If this func is synchronized the bug will not apear

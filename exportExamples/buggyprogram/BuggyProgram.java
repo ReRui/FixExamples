@@ -69,6 +69,7 @@ public class BuggyProgram {
             presented = null;
     static int numOfUsers = AVERAGE_CONCURRENCY;
     static String pattern = "None";
+    static Object o = new Object();
 
     // ===============================   Methods   ===============================
 
@@ -306,18 +307,21 @@ public class BuggyProgram {
         public void run() {
             int i = 0;
 
-            while (i != numOfUsers) {
-                generate();
+            synchronized (o) {
+                while (i != numOfUsers) {
+                    generate();
 
-                for (i = 0; i < numOfUsers; ++i) {
-                    if (history[i] == randomNumber) {
-                        break;
+                    for (i = 0; i < numOfUsers; ++i) {
+                        if (history[i] == randomNumber) {
+                            break;
+                        }
                     }
                 }
-            }
 
-            present();
-            record();
+
+                present();
+                record();
+            }
         }
 
 

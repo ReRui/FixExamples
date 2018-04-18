@@ -69,7 +69,6 @@ public class BuggyProgram {
             presented = null;
     static int numOfUsers = AVERAGE_CONCURRENCY;
     static String pattern = "None";
-
     // ===============================   Methods   ===============================
 
     // ___________________________________________________________________________
@@ -304,6 +303,7 @@ public class BuggyProgram {
         // _________________________________________________________________________
 
         public void run() {
+
             int i = 0;
 
             while (i != numOfUsers) {
@@ -316,8 +316,10 @@ public class BuggyProgram {
                 }
             }
 
+
             present();
             record();
+
         }
 
 
