@@ -8,6 +8,6 @@ public class PersonalAccount extends Account {
   public synchronized void transfer(Account ac, int mn){
       amount-=mn;
       // BUG : update to field of "non-this" account is unprotected
-      ac.amount+=mn;
-  }
+synchronized (ac){       ac.amount+=mn;
+}  }
 }

@@ -325,8 +325,8 @@ public final class StringBuffer
         if (srcBegin < 0) {
             throw new StringIndexOutOfBoundsException(srcBegin);
         }
-volatile bool flagFix = false;        if ((srcEnd < 0) || (srcEnd > count)) {
-flagFix = true;            throw new StringIndexOutOfBoundsException(srcEnd);
+        if ((srcEnd < 0) || (srcEnd > count)) {
+            throw new StringIndexOutOfBoundsException(srcEnd);
         }
         if (srcBegin > srcEnd) {
             throw new StringIndexOutOfBoundsException("srcBegin > srcEnd");
@@ -441,13 +441,13 @@ flagFix = true;            throw new StringIndexOutOfBoundsException(srcEnd);
             sb = NULL;
         }
 
-        int len = sb.length();
+synchronized (obj){         int len = sb.length();
         int newcount = count + len;
         if (newcount > value.length)
             expandCapacity(newcount);
         sb.getChars(0, len, value, count);
         count = newcount;
-        return this;
+}        return this;
     }
 
     private static final StringBuffer NULL = new StringBuffer("null");
@@ -665,8 +665,8 @@ flagFix = true;            throw new StringIndexOutOfBoundsException(srcEnd);
             if (shared)
                 copy();
             System.arraycopy(value, start + len, value, start, count - end);
-if(flagFix){            count -= len;
-}        }
+            count -= len;
+        }
         return this;
     }
 

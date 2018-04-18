@@ -1,7 +1,7 @@
 package accountsubtype;
 
 public class Manager extends Thread {
-static Object objectFix = new Object();  Bank bank;
+  Bank bank;
   Account account;
   int accountNumber;
 
@@ -19,7 +19,7 @@ static Object objectFix = new Object();  Bank bank;
     account.deposit(300);
 
     nextNumber = bank.nextAccountNumber(accountNumber);
-synchronized (objectFix){     account.transfer(bank.getAccount(nextNumber),10);
+    account.transfer(bank.getAccount(nextNumber),10);
 
     account.deposit(10);
 
@@ -29,7 +29,7 @@ synchronized (objectFix){     account.transfer(bank.getAccount(nextNumber),10);
 
     account.transfer(bank.getAccount(nextNumber),10);
 
-    account.withdraw(100);}
+    account.withdraw(100);
     //System.out.println("Manager for "+ account.getName() + " done with work");
   }
 
