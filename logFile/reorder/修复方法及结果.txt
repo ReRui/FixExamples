@@ -1,6 +1,4 @@
-ä¿®å¤ä¸€
-æ·»åŠ åŒæ­¥
-é”çš„åå­—this
-é”çš„åå­—this
-åŠ é”ä½ç½®18
-ç»“æžœ: ä¿®å¤å¤±è´¥
+ÐÞ¸´Èý
+¶ÔReadWriteNode[327,reorder.SetCheck2@163,a,WRITE,Thread-1,reorder/SetCheck2.java:15]¼ÓËøÆðÖ¹Î»ÖÃ15->19
+¶ÔReadWriteNode[331,reorder.SetCheck2@163,a,WRITE,Thread-2,reorder/SetCheck2.java:15]¼ÓËøÆðÖ¹Î»ÖÃ15->20
+½á¹û: ÐÞ¸´³É¹¦

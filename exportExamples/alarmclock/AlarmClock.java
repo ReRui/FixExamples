@@ -3,7 +3,7 @@ package alarmclock;
 /**
  * This is a simulation of an Alarm Clock.
  * One thread of kind Clock calls a method tick() every milisecond
- *(or any other unit of time) and updates the clock. Method tick()
+ * (or any other unit of time) and updates the clock. Method tick()
  * is a part of class Monitor to insure that when the thread
  * changes current time, noone is there to interfere.
  * Other threads of kind Client call method wakeme(int interval)
@@ -11,9 +11,9 @@ package alarmclock;
  * A list of locks is maintained for Client threads.
  * Each thread calculates its waketime and goes
  * to sleep on a lock with a key that's equal to wakeup time.
- *
+ * <p>
  * Starts up one Clock thread and numThreads of kind Client.
- *
+ * <p>
  * Modified from the original to take out the System.out calls and
  * the references to String.  Also modified to take out sync method
  * calls.
@@ -134,22 +134,22 @@ class Monitor {
      * list and notifies everyone sleeping on that lock.
      */
     void tick() {
-		synchronized (this) {
-        now++;
+        synchronized (this) {
+            now++;
 
-        if (!waitList.isEmpty()) {
-            MyObject first = (MyObject) waitList.firstElement();
+            if (!waitList.isEmpty()) {
+                MyObject first = (MyObject) waitList.firstElement();
 
-            if (first.time() == now) {
-                MyObject wakeup = first;
-                waitList.removeElementAt(0);
+                if (first.time() == now) {
+                    MyObject wakeup = first;
+                    waitList.removeElementAt(0);
 
-                synchronized (wakeup) {
-                    wakeup.notifyAll();
+                    synchronized (wakeup) {
+                        wakeup.notifyAll();
+                    }
                 }
             }
         }
-		}
     }
 
     void wakeme(int id, int interval) {

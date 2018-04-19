@@ -7,10 +7,10 @@ import java.util.Iterator;
 
 
 /**
- *@author Golan
+ * @author Golan
  * 17/10/2003
  * 12:01:05
- *@version 1.0
+ * @version 1.0
  */
 
 
@@ -30,7 +30,6 @@ public class BuggedProgram {
 
 
     /**
-     *
      * @param output
      */
     public BuggedProgram(DataOutputStream output, int threadNumber) {
@@ -80,13 +79,16 @@ public class BuggedProgram {
      *
      */
     public void pingPong() {
-    	this.pingPongPlayer.getI();
-        PP newPlayer;
-synchronized (this){         newPlayer = this.pingPongPlayer;
-}        this.pingPongPlayer = null;
-        long time = System.currentTimeMillis();
-        while ((System.currentTimeMillis() - time) < 50) ;
-        this.pingPongPlayer = newPlayer;
+        synchronized (this) {
+            this.pingPongPlayer.getI();
+            PP newPlayer;
+            newPlayer = this.pingPongPlayer;
+            this.pingPongPlayer = null;
+
+            long time = System.currentTimeMillis();
+            while ((System.currentTimeMillis() - time) < 50) ;
+            this.pingPongPlayer = newPlayer;
+        }
     }
 
 
