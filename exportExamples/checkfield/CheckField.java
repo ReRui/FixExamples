@@ -3,14 +3,14 @@ package checkfield;
 public class CheckField {
 	static InstanceExample ex;
 	private int num;
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) {
 		ex = new InstanceExample();
 		Thread t1 = new Thread() {
 			public void run() {
 				System.out.println("new thread." + ex.number);
 synchronized (ex){ 				ex.number = 12;
 				ex.num2 = 12;
-//				assert ex.number == 12;//这一行被修改了
+//				assert ex.number == 12;
 				if (ex.number != 12)
 					throw new RuntimeException("not equal");
 }				int c = ex.num2;

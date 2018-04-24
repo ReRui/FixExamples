@@ -22,7 +22,7 @@ synchronized (objectFix){      	a = i;
     }
 
     boolean check() {
-    	System.out.println("a = " + a + " b = " + b);
+synchronized (objectFix){ synchronized (objectFix){     	System.out.println("a = " + a + " b = " + b);
 	return (a + b == 0);
-    }
+ } }    }
 }

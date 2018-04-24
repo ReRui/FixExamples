@@ -11,9 +11,10 @@ public class Main {
         t1.start();
         t2.start();
 
+
+        //以下4行为添加内容
         t1.join();
         t2.join();
-
         if (account.getTotal() != 10)
             throw new RuntimeException();
 

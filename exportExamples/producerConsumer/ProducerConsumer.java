@@ -11,31 +11,29 @@ public class ProducerConsumer {
     public static int CONS = 4;
     public static int COUNT = 8;
     public static int total = 0;
-
     public static void main(String[] args) throws Exception {
         if (args != null && args.length == 3) {
-            PRODS = Integer.parseInt(args[0]);
-            CONS = Integer.parseInt(args[1]);
-            COUNT = Integer.parseInt(args[2]);
-        }
+	  PRODS = Integer.parseInt(args[0]);
+	  CONS = Integer.parseInt(args[1]);
+	  COUNT = Integer.parseInt(args[2]);
+	}
 
         Consumer[] cons = new Consumer[CONS];
         Buffer b = new Buffer(5);
         Producer p;
 
         for (int i = 0; i < PRODS; i++)
-            p = new Producer(b);
+          p = new Producer(b);
 
         for (int i = 0; i < CONS; i++)
-            cons[i] = new Consumer(b);
+          cons[i] = new Consumer(b);
 
         for (int i = 0; i < CONS; i++)
-            cons[i].join();
-        synchronized (b) {
-            if (total != COUNT * PRODS)
-                throw new RuntimeException("bug found - total is " + total + " and should be " + COUNT * PRODS);
-        }
-    }
+          cons[i].join();
+
+        if (total != COUNT*PRODS)
+volatile bool flagFix = false;          throw new RuntimeException("bug found - total is "+total+" and should be "+COUNT*PRODS);
+flagFix = true;    }
 }
 
 class HaltException extends Exception {
@@ -84,34 +82,34 @@ class Buffer implements BufferInterface {
     }
 
     public synchronized Object get() {
-            while ((usedSlots == 0) & !halted) {
-                try {
-                    //System.out.println("consumer wait");
-                    wait();
-                } catch (InterruptedException ex) {
-                }
+        while ((usedSlots == 0) & !halted) {
+            try {
+                //System.out.println("consumer wait");
+                wait();
+            } catch (InterruptedException ex) {
             }
+        }
 
-            if (usedSlots == 0) {
-                //System.out.println("consumer gets halt exception");
+        if (usedSlots == 0) {
+            //System.out.println("consumer gets halt exception");
 
-                //HaltException he = new HaltException();
-                //throw (he);
-                return null;
-            }
+            //HaltException he = new HaltException();
+            //throw (he);
+            return null;
+        }
 
-            Object x = array[getPtr];
-            //System.out.println("get at " + getPtr);
-            array[getPtr] = null;
-            getPtr = (getPtr + 1) % SIZE;
+        Object x = array[getPtr];
+        //System.out.println("get at " + getPtr);
+        array[getPtr] = null;
+        getPtr = (getPtr + 1) % SIZE;
 
-            if (usedSlots == SIZE) {
-                notifyAll();
-            }
+        if (usedSlots == SIZE) {
+            notifyAll();
+        }
 
-            usedSlots--;
+        usedSlots--;
 
-            return x;
+        return x;
     }
 
     public synchronized void halt() {
@@ -179,11 +177,11 @@ class Consumer extends Thread {
 
         while (count < received.length) {
             received[count] = (AttrData) buffer.get();
-            if (received[count] == null) {
-                break;
+            if(received[count] == null) {
+                break;    
             } else {
-                inc(received[count].data);
-            }
+		inc(received[count].data);
+	    }
             count++;
         }
 
@@ -191,8 +189,6 @@ class Consumer extends Thread {
     }
 
     public synchronized void inc(int x) {
-        synchronized (buffer) {
-            ProducerConsumer.total = ProducerConsumer.total + x;
-        }
-    }
+if(flagFix){	ProducerConsumer.total = ProducerConsumer.total + x;
+}    }
 }

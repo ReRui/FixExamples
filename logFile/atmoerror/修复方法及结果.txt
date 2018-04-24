@@ -1,6 +1,5 @@
-修复二
-锁的名字this
-对ReadWriteNode[478,atmoerror.BankAccount@15e,total,READ,Thread-2,atmoerror/BankAccount.java:7]加锁起止位置7->7
-锁的名字this
-对ReadWriteNode[484,atmoerror.BankAccount@15e,total,WRITE,Thread-1,atmoerror/BankAccount.java:7]加锁起止位置7->7
+修复一
+添加同步
+锁的名字
+加锁位置7->8
 结果: 修复成功

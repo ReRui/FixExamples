@@ -1,4 +1,5 @@
-修复二
-锁的名字this
-对ReadWriteNode[522,datarace.Account@163,balance,WRITE,Thread-4,datarace/Account.java:12]加锁起止位置12->12
+修复一
+添加同步
+锁的名字
+加锁位置12->13
 结果: 修复成功

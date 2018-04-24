@@ -268,9 +268,9 @@ public class GenericObjectPool extends BaseObjectPool implements ObjectPool {
     /**
      * Create a new <tt>GenericObjectPool</tt> using the specified values.
      * @param factory the (possibly <tt>null</tt>)PoolableObjectFactory to use to create, validate and destroy objects
-     * @param config a non-<tt>null</tt> {@link GenericObjectPool.Config} describing my configuration
+     * @param config a non-<tt>null</tt> {@link Config} describing my configuration
      */
-    public GenericObjectPool(PoolableObjectFactory factory, GenericObjectPool.Config config) {
+    public GenericObjectPool(PoolableObjectFactory factory, Config config) {
         this(factory,config.maxActive,config.whenExhaustedAction,config.maxWait,config.maxIdle,config.minIdle,config.testOnBorrow,config.testOnReturn,config.timeBetweenEvictionRunsMillis,config.numTestsPerEvictionRun,config.minEvictableIdleTimeMillis,config.testWhileIdle);
     }
 
@@ -692,9 +692,9 @@ public class GenericObjectPool extends BaseObjectPool implements ObjectPool {
 
     /**
      * Sets my configuration.
-     * @see GenericObjectPool.Config
+     * @see Config
      */
-    public synchronized void setConfig(GenericObjectPool.Config conf) {
+    public synchronized void setConfig(Config conf) {
         setMaxIdle(conf.maxIdle);
         setMinIdle(conf.minIdle);
         setMaxActive(conf.maxActive);
@@ -1104,7 +1104,7 @@ public class GenericObjectPool extends BaseObjectPool implements ObjectPool {
     /**
      * A simple "struct" encapsulating the
      * configuration information for a {@link GenericObjectPool}.
-     * @see GenericObjectPool#GenericObjectPool(org.apache.commons.pool.PoolableObjectFactory,org.apache.commons.pool.impl.GenericObjectPool.Config)
+     * @see GenericObjectPool#GenericObjectPool(PoolableObjectFactory,Config)
      * @see GenericObjectPool#setConfig
      */
     public static class Config {

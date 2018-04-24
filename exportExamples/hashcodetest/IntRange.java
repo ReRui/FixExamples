@@ -5,9 +5,9 @@
  * The ASF licenses this file to You under the Apache License, Version 2.0
  * (the "License"); you may not use this file except in compliance with
  * the License.  You may obtain a copy of the License at
- *
+ * 
  *      http://www.apache.org/licenses/LICENSE-2.0
- *
+ * 
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -22,14 +22,14 @@ import java.io.Serializable;
  * <p><code>IntRange</code> represents an inclusive range of <code>int</code>s.</p>
  *
  * @author Stephen Colebourne
- * @version $Id: IntRange.java 594398 2007-11-13 02:43:10Z bayard $
  * @since 2.0
+ * @version $Id: IntRange.java 594398 2007-11-13 02:43:10Z bayard $
  */
 public final class IntRange extends Range implements Serializable {
-
+    
     /**
      * Required for serialization support.
-     *
+     * 
      * @see Serializable
      */
     private static final long serialVersionUID = 71849363892730L;
@@ -42,7 +42,7 @@ public final class IntRange extends Range implements Serializable {
      * The maximum number in this range (inclusive).
      */
     private final int max;
-
+    
     /**
      * Cached output minObject (class is immutable).
      */
@@ -59,12 +59,12 @@ public final class IntRange extends Range implements Serializable {
      * Cached output toString (class is immutable).
      */
     private transient String toString = null;
-
+    
     /**
      * <p>Constructs a new <code>IntRange</code> using the specified
      * number as both the minimum and maximum in this range.</p>
      *
-     * @param number the number to use for this range
+     * @param number  the number to use for this range
      */
     public IntRange(int number) {
         super();
@@ -76,7 +76,7 @@ public final class IntRange extends Range implements Serializable {
      * <p>Constructs a new <code>IntRange</code> using the specified
      * number as both the minimum and maximum in this range.</p>
      *
-     * @param number the number to use for this range, must not be <code>null</code>
+     * @param number  the number to use for this range, must not be <code>null</code>
      * @throws IllegalArgumentException if the number is <code>null</code>
      */
     public IntRange(Number number) {
@@ -95,12 +95,12 @@ public final class IntRange extends Range implements Serializable {
     /**
      * <p>Constructs a new <code>IntRange</code> with the specified
      * minimum and maximum numbers (both inclusive).</p>
-     * <p>
+     * 
      * <p>The arguments may be passed in the order (min,max) or (max,min). The
      * getMinimum and getMaximum methods will return the correct values.</p>
-     *
-     * @param number1 first number that defines the edge of the range, inclusive
-     * @param number2 second number that defines the edge of the range, inclusive
+     * 
+     * @param number1  first number that defines the edge of the range, inclusive
+     * @param number2  second number that defines the edge of the range, inclusive
      */
     public IntRange(int number1, int number2) {
         super();
@@ -116,12 +116,12 @@ public final class IntRange extends Range implements Serializable {
     /**
      * <p>Constructs a new <code>IntRange</code> with the specified
      * minimum and maximum numbers (both inclusive).</p>
-     * <p>
+     * 
      * <p>The arguments may be passed in the order (min,max) or (max,min). The
      * getMinimum and getMaximum methods will return the correct values.</p>
      *
-     * @param number1 first number that defines the edge of the range, inclusive
-     * @param number2 second number that defines the edge of the range, inclusive
+     * @param number1  first number that defines the edge of the range, inclusive
+     * @param number2  second number that defines the edge of the range, inclusive
      * @throws IllegalArgumentException if either number is <code>null</code>
      */
     public IntRange(Number number1, Number number2) {
@@ -162,7 +162,7 @@ public final class IntRange extends Range implements Serializable {
      */
     public Number getMinimumNumber() {
         if (minObject == null) {
-            minObject = new Integer(min);
+            minObject = new Integer(min);            
         }
         return minObject;
     }
@@ -210,7 +210,7 @@ public final class IntRange extends Range implements Serializable {
      */
     public Number getMaximumNumber() {
         if (maxObject == null) {
-            maxObject = new Integer(max);
+            maxObject = new Integer(max);            
         }
         return maxObject;
     }
@@ -253,14 +253,14 @@ public final class IntRange extends Range implements Serializable {
 
     // Tests
     //--------------------------------------------------------------------
-
+    
     /**
      * <p>Tests whether the specified <code>number</code> occurs within
      * this range using <code>int</code> comparison.</p>
-     * <p>
+     * 
      * <p><code>null</code> is handled and returns <code>false</code>.</p>
      *
-     * @param number the number to test, may be <code>null</code>
+     * @param number  the number to test, may be <code>null</code>
      * @return <code>true</code> if the specified number occurs within this range
      */
     public boolean containsNumber(Number number) {
@@ -273,13 +273,13 @@ public final class IntRange extends Range implements Serializable {
     /**
      * <p>Tests whether the specified <code>int</code> occurs within
      * this range using <code>int</code> comparison.</p>
-     * <p>
+     * 
      * <p>This implementation overrides the superclass for performance as it is
      * the most common case.</p>
-     *
-     * @param value the int to test
+     * 
+     * @param value  the int to test
      * @return <code>true</code> if the specified number occurs within this
-     * range by <code>int</code> comparison
+     *  range by <code>int</code> comparison
      */
     public boolean containsInteger(int value) {
         return value >= min && value <= max;
@@ -291,10 +291,10 @@ public final class IntRange extends Range implements Serializable {
     /**
      * <p>Tests whether the specified range occurs entirely within this range
      * using <code>int</code> comparison.</p>
-     * <p>
+     * 
      * <p><code>null</code> is handled and returns <code>false</code>.</p>
      *
-     * @param range the range to test, may be <code>null</code>
+     * @param range  the range to test, may be <code>null</code>
      * @return <code>true</code> if the specified range occurs entirely within this range
      * @throws IllegalArgumentException if the range is not of this type
      */
@@ -303,16 +303,16 @@ public final class IntRange extends Range implements Serializable {
             return false;
         }
         return containsInteger(range.getMinimumInteger()) &&
-                containsInteger(range.getMaximumInteger());
+               containsInteger(range.getMaximumInteger());
     }
 
     /**
      * <p>Tests whether the specified range overlaps with this range
      * using <code>int</code> comparison.</p>
-     * <p>
+     * 
      * <p><code>null</code> is handled and returns <code>false</code>.</p>
      *
-     * @param range the range to test, may be <code>null</code>
+     * @param range  the range to test, may be <code>null</code>
      * @return <code>true</code> if the specified range overlaps with this range
      */
     public boolean overlapsRange(Range range) {
@@ -320,8 +320,8 @@ public final class IntRange extends Range implements Serializable {
             return false;
         }
         return range.containsInteger(min) ||
-                range.containsInteger(max) ||
-                containsInteger(range.getMinimumInteger());
+               range.containsInteger(max) || 
+               containsInteger(range.getMinimumInteger());
     }
 
     // Basics
@@ -329,7 +329,7 @@ public final class IntRange extends Range implements Serializable {
 
     /**
      * <p>Compares this range to another object to test if they are equal.</p>.
-     * <p>
+     * 
      * <p>To be equal, the class, minimum and maximum must be equal.</p>
      *
      * @param obj the reference object with which to compare
@@ -352,21 +352,18 @@ public final class IntRange extends Range implements Serializable {
      * @return a hash code value for this object
      */
     public int hashCode() {
-
-        synchronized (this) {
-            if (hashCode == 0) {
-                hashCode = 17;
-                hashCode = 37 * hashCode + getClass().hashCode();
-                //hashCode = 37 * hashCode + min;
-                //hashCode = 37 * hashCode + max;
-            }
-            return hashCode;
+        if (hashCode == 0) {
+synchronized (this){             hashCode = 17;
+            hashCode = 37 * hashCode + getClass().hashCode();
+}            //hashCode = 37 * hashCode + min;
+            //hashCode = 37 * hashCode + max;
         }
-    }
+synchronized (this){         return hashCode;
+}    }
 
     /**
      * <p>Gets the range as a <code>String</code>.</p>
-     * <p>
+     *
      * <p>The format of the String is 'Range[<i>min</i>,<i>max</i>]'.</p>
      *
      * @return the <code>String</code> representation of this range

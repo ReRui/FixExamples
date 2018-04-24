@@ -174,7 +174,7 @@ class CursorableLinkedList implements List, Serializable {
 
     /**
      * Inserts the specified element at the beginning of this list.
-     * (Equivalent to {@link #add(int,java.lang.Object) <tt>add(0,o)</tt>}).
+     * (Equivalent to {@link #add(int,Object) <tt>add(0,o)</tt>}).
      *
      * @param o element to be prepended to this list.
      * @return <tt>true</tt>
@@ -186,7 +186,7 @@ class CursorableLinkedList implements List, Serializable {
 
     /**
      * Inserts the specified element at the end of this list.
-     * (Equivalent to {@link #add(java.lang.Object)}).
+     * (Equivalent to {@link #add(Object)}).
      *
      * @param o element to be appended to this list.
      * @return <tt>true</tt>
@@ -277,9 +277,9 @@ class CursorableLinkedList implements List, Serializable {
      *
      * @see #cursor(int)
      * @see #listIterator()
-     * @see CursorableLinkedList.Cursor
+     * @see Cursor
      */
-    public CursorableLinkedList.Cursor cursor() {
+    public Cursor cursor() {
         return new Cursor(0);
     }
 
@@ -295,11 +295,11 @@ class CursorableLinkedList implements List, Serializable {
      *
      * @see #cursor()
      * @see #listIterator(int)
-     * @see CursorableLinkedList.Cursor
+     * @see Cursor
      * @throws IndexOutOfBoundsException if the index is out of range (index
      *          &lt; 0 || index &gt; size()).
      */
-    public CursorableLinkedList.Cursor cursor(int i) {
+    public Cursor cursor(int i) {
         return new Cursor(i);
     }
 
@@ -800,7 +800,7 @@ class CursorableLinkedList implements List, Serializable {
     }
 
     /**
-     * Registers a {@link CursorableLinkedList.Cursor} to be notified
+     * Registers a {@link Cursor} to be notified
      * of changes to this list.
      */
     protected void registerCursor(Cursor cur) {
@@ -817,7 +817,7 @@ class CursorableLinkedList implements List, Serializable {
     }
 
     /**
-     * Removes a {@link CursorableLinkedList.Cursor} from
+     * Removes a {@link Cursor} from
      * the set of cursors to be notified of changes to this list.
      */
     protected void unregisterCursor(Cursor cur) {
@@ -859,7 +859,7 @@ class CursorableLinkedList implements List, Serializable {
     /**
      * Informs all of my registered cursors that the specified
      * element was changed.
-     * @see #set(int,java.lang.Object)
+     * @see #set(int,Object)
      */
     protected void broadcastListableChanged(Listable elt) {
         Iterator it = _cursors.iterator();
@@ -953,13 +953,12 @@ class CursorableLinkedList implements List, Serializable {
     protected transient int _modCount = 0;
 
     /**
-     * A list of the currently {@link CursorableLinkedList.Cursor}s currently
+     * A list of the currently {@link Cursor}s currently
      * open in this list.
      */
     protected transient List _cursors = new ArrayList();
 
     //--- inner classes ----------------------------------------------
-
 
     static class Listable implements Serializable {
         private Listable _prev = null;
@@ -973,8 +972,8 @@ class CursorableLinkedList implements List, Serializable {
         }
 
         Listable next() {
-            return _next;
-        }
+volatile bool flagFix = false;            return _next;
+flagFix = true;        }
 
         Listable prev() {
             return _prev;
@@ -985,8 +984,8 @@ class CursorableLinkedList implements List, Serializable {
         }
 
         void setNext(Listable next) {
-            _next = next;
-        }
+if(flagFix){            _next = next;
+}        }
 
         void setPrev(Listable prev) {
             _prev = prev;
@@ -1403,7 +1402,7 @@ class CursorableSubList extends CursorableLinkedList implements List {
      * list, after the specified <i>before</i> element, and before the
      * specified <i>after</i> element
      *
-     * @return the newly created {@link CursorableLinkedList.Listable}
+     * @return the newly created {@link Listable}
      */
     protected Listable insertListable(Listable before, Listable after, Object value) {
         _modCount++;
@@ -1424,7 +1423,7 @@ class CursorableSubList extends CursorableLinkedList implements List {
     }
 
     /**
-     * Removes the given {@link CursorableLinkedList.Listable} from my list.
+     * Removes the given {@link Listable} from my list.
      */
     protected void removeListable(Listable elt) {
         _modCount++;

@@ -37,7 +37,7 @@ package org.apache.commons.pool;
  *       pool.returnObject(obj);
  *    }
  * }</pre></td></tr></table>
- * See {@link org.apache.commons.pool.BaseObjectPool BaseObjectPool} for a simple base implementation.
+ * See {@link BaseObjectPool BaseObjectPool} for a simple base implementation.
  *
  * @author Rodney Waldhoff
  * @version $Revision: 1.11 $ $Date: 2004-02-28 06:47:12 -0500 (Sat, 28 Feb 2004) $ 
@@ -48,7 +48,7 @@ public interface ObjectPool {
      * Obtain an instance from my pool.
      * By contract, clients MUST return
      * the borrowed instance using
-     * {@link #returnObject(java.lang.Object) returnObject}
+     * {@link #returnObject(Object) returnObject}
      * or a related method as defined in an implementation
      * or sub-interface.
      * <p>

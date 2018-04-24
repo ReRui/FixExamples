@@ -122,8 +122,8 @@ class Monitor {
      * be equal to the wakeup time of the thread.
      */
     Monitor(int maxTime) {
-        now = 0;
-        waitList = new MyLinkedList();
+volatile bool flagFix = false;        now = 0;
+flagFix = true;        waitList = new MyLinkedList();
         max = maxTime;
     }
 
@@ -202,8 +202,8 @@ class Monitor {
      * Gets the current time of the clock.
      */
     int getTime() {
-        return now;
-    }
+if(flagFix){        return now;
+}    }
 }
 
 
